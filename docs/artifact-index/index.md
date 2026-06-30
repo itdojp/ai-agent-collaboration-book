@@ -32,7 +32,9 @@ book_section: "additional"
 
 各成果物は、章を読みながら必要になったものだけを作ればよい。全件を同時に作る必要はない。
 
-### 全体入口・Work選定 {#work-intake}
+<a id="work-intake"></a>
+
+### 全体入口・Work選定
 
 - **本書活用計画 / Reading Route Plan**（初出: 第0章 / 主な利用者: 全読者）
   - 用途: 読者タイプ、対象業務、読む章、最初に作る成果物、30日以内の小実験を決める。
@@ -41,7 +43,9 @@ book_section: "additional"
 - **AI適用判断シート**（初出: 第2章 / 主な利用者: 全社員、管理職）
   - 用途: AIに任せる仕事を選ぶ。
 
-### Request / Context設計 {#request-context}
+<a id="request-context"></a>
+
+### Request / Context設計
 
 - **AIエージェント依頼書 / Request Contract**（初出: 第3章 / 主な利用者: 全社員）
   - 用途: AIへの依頼を目的、成果物、制約、受け入れ条件まで含む仕様にする。
@@ -50,7 +54,9 @@ book_section: "additional"
 - **Context Pack**（初出: 第4章 / 主な利用者: 全社員、業務担当者）
   - 用途: 前提、制約、情報鮮度、不確実性、機密区分を渡す。
 
-### Delegation設計 {#delegation-artifacts}
+<a id="delegation-artifacts"></a>
+
+### Delegation設計
 
 - **Task Brief**（初出: 第5章 / 主な利用者: 業務担当者、管理職）
   - 用途: 個別タスクの入力、出力、受け入れ条件、停止条件を定義する。
@@ -63,7 +69,9 @@ book_section: "additional"
 - **Restart Packet**（初出: 第5章 / 主な利用者: 業務担当者、管理職）
   - 用途: 中断後に別セッション・別担当者が作業を再開できる状態を残す。
 
-### Review / Evaluation {#review-evaluation-artifacts}
+<a id="review-evaluation-artifacts"></a>
+
+### Review / Evaluation
 
 - **AI出力レビュー表**（初出: 第6章 / 主な利用者: 全社員、管理職）
   - 用途: AI出力を成果物として採用できるか判定する。
@@ -72,7 +80,9 @@ book_section: "additional"
 - **Evaluation Plan**（初出: 第6章 / 主な利用者: エンジニア、AI推進担当）
   - 用途: AI活用の仕組みとしての品質、回帰評価、禁止出力を評価する。
 
-### Tool / Permission / HITL {#tool-permission-artifacts}
+<a id="tool-permission-artifacts"></a>
+
+### Tool / Permission / HITL
 
 - **ツール権限マトリクス**（初出: 第7章 / 主な利用者: エンジニア、情シス、AI推進担当）
   - 用途: AIがどのツールでどの操作をどの条件で実行できるかを制御する。
@@ -87,7 +97,9 @@ book_section: "additional"
 - **Permission Test**（初出: 第7章 / 主な利用者: エンジニア、AI推進担当、セキュリティ）
   - 用途: 権限設計が実際に機能するかをテストする。
 
-### Log / Observability / Improvement {#log-observability-artifacts}
+<a id="log-observability-artifacts"></a>
+
+### Log / Observability / Improvement
 
 - **Agent Run Log**（初出: 第8章 / 主な利用者: エンジニア、AI推進担当、管理職）
   - 用途: AIエージェントの1回の業務実行を、依頼、前提、出力、レビュー、承認、改善までRun単位で記録する。
@@ -106,7 +118,9 @@ book_section: "additional"
 - **Metrics Dashboard Definition**（初出: 第8章 / 主な利用者: 管理職、AI推進担当）
   - 用途: 利用、品質、リスク、効率、学習の指標を定義する。
 
-### Security / Privacy {#security-privacy-artifacts}
+<a id="security-privacy-artifacts"></a>
+
+### Security / Privacy
 
 - **AI Security Checklist**（初出: 第9章 / 主な利用者: 全社員、セキュリティ）
   - 用途: AI固有リスクを確認する。
@@ -125,7 +139,9 @@ book_section: "additional"
 - **AI Incident Trigger Matrix**（初出: 第9章 / 主な利用者: セキュリティ、AI推進担当、管理職）
   - 用途: AI利用を停止・エスカレーションする条件を定義する。
 
-### Governance / Audit {#governance-artifacts}
+<a id="governance-artifacts"></a>
+
+### Governance / Audit
 
 - **AI Use Policy**（初出: 第10章 / 主な利用者: 経営層、AI推進担当、全社員）
   - 用途: 社内AI利用の許可、条件付き許可、要承認、禁止、インシデント時連絡先を定義する。
@@ -152,7 +168,9 @@ book_section: "additional"
 - **AI Retirement Plan**（初出: 第10章 / 主な利用者: AI推進担当、情シス、管理職）
   - 用途: AI利用、プロンプト、RAG、API、ツール権限、ログ、ベンダー契約を安全に廃止する。
 
-### Decision / Conflict / Experiment / Self-talk {#human-decision-artifacts}
+<a id="human-decision-artifacts"></a>
+
+### Decision / Conflict / Experiment / Self-talk
 
 - **Decision Brief**（初出: 第11章 / 主な利用者: 管理職、経営層、AI推進担当）
   - 用途: 判断対象、判断者、判断基準、選択肢、判断理由、検証指標を1枚で整理する。
@@ -215,7 +233,9 @@ book_section: "additional"
 - **Manager Coaching Note**（初出: 第14章 / 主な利用者: 管理職）
   - 用途: 管理職が行動停止を人格問題ではなく業務設計問題として扱う。
 
-### Skill / Rollout / Enablement {#skill-rollout-artifacts}
+<a id="skill-rollout-artifacts"></a>
+
+### Skill / Rollout / Enablement
 
 - **Skill Map**（初出: 第15章 / 主な利用者: 管理職、AI推進担当、経営層）
   - 用途: AIエージェント協働能力を12領域、Lv1〜Lv6、証拠レベルで整理する。
