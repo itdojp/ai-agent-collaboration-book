@@ -56,3 +56,15 @@ AIは判断材料を作れるが、判断責任を引き受けることはでき
 | 説明 | 説明文の下書き | 誰にどう説明し、責任を持つか |
 
 第11章では、この責任分界をDecision Brief、Kill Decision Sheet、Risk Acceptance Memoへ落とす。
+
+## 関連章・利用箇所
+
+### 関連章
+
+- [第11章 AI時代の判断力](../manuscript/ch11-discernment.md): AI提案と人間判断の境界を定義する。
+
+### 本文での利用箇所
+
+- [第11章 AI時代の判断力](../manuscript/ch11-discernment.md): AIが支援する判断材料と、人間が引き受ける判断責任を分ける。
+
+[← 図表索引へ戻る](../figure-index.md)

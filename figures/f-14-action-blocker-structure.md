@@ -39,3 +39,15 @@ flowchart LR
 | 先送り | 時間があるときにやる | 次の業務日までの最小行動を決める |
 
 第14章では、Action Blocker診断、Self-talk Transcript、Minimum Action Contractを使って、行動停止を業務設計問題として扱う。
+
+## 関連章・利用箇所
+
+### 関連章
+
+- [第14章 セルフトークと高レバレッジ環境](../manuscript/ch14-self-talk.md): 行動停止を業務設計問題として扱う。
+
+### 本文での利用箇所
+
+- [第14章 セルフトークと高レバレッジ環境](../manuscript/ch14-self-talk.md): セルフトーク、リスク混同、行動停止、最小行動への変換を確認する。
+
+[← 図表索引へ戻る](../figure-index.md)
