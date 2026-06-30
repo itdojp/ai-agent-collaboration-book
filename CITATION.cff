@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+title: "AIエージェント協働の仕事術"
+message: "If you use this book, please cite it as below."
+type: book
+authors:
+  - name: "ITDO Inc."
+version: "1.0.0"
+date-released: "2026-06-30"
+url: "https://itdojp.github.io/ai-agent-collaboration-book/"
+repository-code: "https://github.com/itdojp/ai-agent-collaboration-book"
+license: "CC-BY-NC-SA-4.0"

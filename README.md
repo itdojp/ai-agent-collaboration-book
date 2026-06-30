@@ -2,20 +2,18 @@
 
 ## 人間・業務・AIをつなぐ実践フレームワーク
 
-本リポジトリは、IT Engineer Knowledge Architecture シリーズに追加する新刊『AIエージェント協働の仕事術』の執筆リポジトリです。
+本リポジトリは、IT Engineer Knowledge Architecture シリーズの書籍『AIエージェント協働の仕事術』の公開リポジトリです。
+
+- 公開サイト: <https://itdojp.github.io/ai-agent-collaboration-book/>
+- リポジトリ: <https://github.com/itdojp/ai-agent-collaboration-book>
+- ライセンス: CC BY-NC-SA 4.0（商用利用には別途契約が必要）
+- 公開版: 1.0.0
 
 本書は、AIエージェントを「便利なチャット」ではなく、業務成果を出すための協働システムとして扱います。対象読者はエンジニアに限定しません。業務担当者、マネージャー、AI推進担当、情シス・セキュリティ担当、経営層までを含みます。
 
 ## 本書の一文定義
 
 AIエージェント協働とは、業務目的を明確化し、依頼・コンテキスト・権限・レビュー・人間判断を設計することで、AIの出力と行動を組織成果へ変換する仕事術です。
-
-## 本書の位置づけ
-
-- Professional Foundations と AIエージェント実践書の間をつなぐ横断書籍
-- プロンプト、コンテキスト、委任、検証、権限、ガバナンス、人間側能力を統合する書籍
-- 後続の社内研修、e-learning、ワークショップ、認定課題の原典
-- 既存の『AIエージェント実践』『GitHub AgentOps 実践ガイド』『AI時代のプロフェッショナルITエンジニアの思考法』への橋渡し
 
 ## 中核フレームワーク
 
@@ -32,43 +30,54 @@ AIエージェント協働とは、業務目的を明確化し、依頼・コン
 
 詳細は [Concept Map](concept-map.md) を参照してください。
 
-## まず読むファイル
+## 読者向け主要ページ
 
-| ファイル | 用途 |
+| ファイル | 公開サイト | 用途 |
+|---|---|---|
+| [index.md](index.md) | [トップ](https://itdojp.github.io/ai-agent-collaboration-book/) | 書籍トップと目次 |
+| [quickstart.md](quickstart.md) | [Quick Start](https://itdojp.github.io/ai-agent-collaboration-book/quickstart/) | 90分で最小実践する導線 |
+| [concept-map.md](concept-map.md) | [Concept Map](https://itdojp.github.io/ai-agent-collaboration-book/concept-map/) | 本書の中核フレームワーク |
+| [artifact-index.md](artifact-index.md) | [Artifact Index](https://itdojp.github.io/ai-agent-collaboration-book/artifact-index/) | 本書で作る成果物一覧 |
+| [troubleshooting.md](troubleshooting.md) | [Troubleshooting](https://itdojp.github.io/ai-agent-collaboration-book/troubleshooting/) | AI活用が詰まったときの切り分け |
+| [figure-index.md](figure-index.md) | [Figure Index](https://itdojp.github.io/ai-agent-collaboration-book/figure-index/) | 図表索引 |
+| [source-notes.md](source-notes.md) | [Source Notes](https://itdojp.github.io/ai-agent-collaboration-book/source-notes/) | 出典候補と確認メモ |
+
+## ディレクトリ構成
+
+| パス | 役割 |
 |---|---|
-| [index.md](index.md) | 書籍トップと目次 |
-| [quickstart.md](quickstart.md) | 90分で最小実践する導線 |
-| [concept-map.md](concept-map.md) | 本書の中核フレームワーク |
-| [artifact-index.md](artifact-index.md) | 本書で作る成果物一覧 |
-| [troubleshooting.md](troubleshooting.md) | AI活用が詰まったときの切り分け |
-| [figure-index.md](figure-index.md) | 図表計画 |
-| [codex-cli-plan.md](codex-cli-plan.md) | Codex CLIでの作業計画 |
-| [writing-guide.md](writing-guide.md) | 執筆ルール |
-| [source-notes.md](source-notes.md) | 出典候補と確認メモ |
-| [review/REVIEW_APPLIED_SUMMARY.md](review/REVIEW_APPLIED_SUMMARY.md) | 横断レビュー反映状況 |
+| `docs/` | GitHub Pages 用 Jekyll 公開ツリー。共通 book レイアウト、ナビゲーション、検索データを含む。 |
+| `manuscript/` | 章本文の編集元。第0章〜第16章を配置。 |
+| `appendices/` | 付録A〜Hの編集元。 |
+| `figures/` | 図表説明ページの編集元。 |
+| `examples/`, `exercises/` | 継続ケースと演習問題の編集元。 |
+| `planning/`, `review/` | 執筆計画、レビュー記録、親サイト掲載メモなどのリポジトリ資料。書籍サイトの主要導線には含めない。 |
+| `scripts/` | 公開ツリー同期、リンク検証、メタデータ検証のスクリプト。 |
 
-## 現在のドラフト状態
+`docs/` の Markdown は `scripts/sync_published_docs.py` で編集元から生成します。本文を変更した場合は、編集元ファイルを更新してから `npm run sync:docs` を実行してください。
 
-- 版: 0.24.0-import-ready
-- 第0章〜第16章まで初稿相当
-- 第15章・第16章の重複圧縮を反映済み
-- 第0章を導入章として圧縮済み
-- 追加図表F-07〜F-15を追加済み
-- 横断レビューP1修正を反映済み
-- 用語・レベル体系を統一済み（実験レベルX0〜X5、評価証拠レベルEV0〜EV5）
-- Source Notes整理、優先図表追加、付録D〜H拡張を反映済み
-- 次の主要作業: GitHub初回push、GitHub Pages設定、親サイトへの掲載、公開前校正
+## ローカル検証
 
-## GitHub初回投入
+前提: Node.js 20以上、Python 3.11以上、Ruby 3.3/Bundler。
 
-リポジトリ: <https://github.com/itdojp/ai-agent-collaboration-book>
+```bash
+npm ci
+python -m pip install -r requirements.txt
+bundle install
+npm run sync:docs
+npm test
+npm audit --audit-level=moderate
+npm run build
+```
 
-初回投入手順は [GITHUB_INITIAL_PUSH.md](GITHUB_INITIAL_PUSH.md) を参照してください。
+CI では `.github/workflows/ci.yml` の `Book QA` が、GitHub Pages では `.github/workflows/pages.yml` が同等の同期・検証・Jekyll ビルドを実行します。
 
-## Codex CLI での次作業
+## 公開と親サイト連携
 
-1. 本パッケージを `itdojp/ai-agent-collaboration-book` にpushする。
-2. GitHub Pagesを `main` branch / root で有効化する。
-3. `docs/PARENT_SITE_INTEGRATION.md` の掲載案を使い、親サイト `it-engineer-knowledge-architecture` へ追加する。
-4. 公開前校正、Source Notesの公開後再確認、本文の表記最終調整を行う。
-5. 必要に応じて `planning/codex-task-queue.md` を更新する。
+- GitHub Pages は `docs/` を Jekyll の source としてビルドし、`_site` を Pages artifact としてデプロイします。
+- 親サイト `itdojp/it-engineer-knowledge-architecture` への掲載案は [planning/parent-site-integration.md](planning/parent-site-integration.md) を参照してください。
+- 執筆計画、Codex作業メモ、レビュー反映記録は GitHub 上のリポジトリ資料として保持し、読者向けサイトの主要ナビゲーションには含めません。
+
+## ライセンス
+
+© 2026 ITDO Inc. Content licensed under CC BY-NC-SA 4.0. Commercial use requires a separate agreement.

@@ -1,0 +1,99 @@
+# Reader-facing navigation for the common Jekyll book layout.
+
+introduction:
+  - title: Quick Start
+    path: /quickstart/
+  - title: Concept Map
+    path: /concept-map/
+  - title: 第0章 本書の読み方
+    path: /reading-guide/
+
+chapters:
+  - title: "Part I: AIエージェント協働の基礎"
+    items:
+      - title: 第1章 AIエージェント協働とは何か
+        path: /chapters/chapter-01/
+      - title: 第2章 AIに任せる仕事、任せない仕事
+        path: /chapters/chapter-02/
+  - title: "Part II: 依頼・コンテキスト・委任"
+    items:
+      - title: 第3章 依頼を契約にする
+        path: /chapters/chapter-03/
+      - title: 第4章 Context Packを設計する
+        path: /chapters/chapter-04/
+      - title: 第5章 タスク分解と委任
+        path: /chapters/chapter-05/
+  - title: "Part III: 検証・ツール・運用"
+    items:
+      - title: 第6章 AI出力レビューと評価
+        path: /chapters/chapter-06/
+      - title: 第7章 ツール・権限・HITL
+        path: /chapters/chapter-07/
+      - title: 第8章 ログ・トレース・継続改善
+        path: /chapters/chapter-08/
+  - title: "Part IV: セキュリティ・ガバナンス"
+    items:
+      - title: 第9章 セキュリティとプライバシー
+        path: /chapters/chapter-09/
+      - title: 第10章 ガバナンスと統制
+        path: /chapters/chapter-10/
+  - title: "Part V: 人間側能力"
+    items:
+      - title: 第11章 AI時代の判断力
+        path: /chapters/chapter-11/
+      - title: 第12章 困難な会話と対立処理
+        path: /chapters/chapter-12/
+      - title: 第13章 失敗耐性と実験文化
+        path: /chapters/chapter-13/
+      - title: 第14章 セルフトークと高レバレッジ環境
+        path: /chapters/chapter-14/
+  - title: "Part VI: 組織展開"
+    items:
+      - title: 第15章 スキルマップと評価
+        path: /chapters/chapter-15/
+      - title: 第16章 組織展開と教材化
+        path: /chapters/chapter-16/
+
+additional:
+  - title: 成果物索引
+    path: /artifact-index/
+  - title: トラブルシューティング
+    path: /troubleshooting/
+  - title: 図表索引
+    path: /figure-index/
+  - title: 継続ケース
+    path: /examples/recurring-case/
+  - title: 演習問題集
+    path: /exercises/exercise-bank/
+
+resources:
+  - title: Source Notes
+    path: /source-notes/
+  - title: まえがき
+    path: /preface/
+  - title: あとがき
+    path: /afterword/
+  - title: 著作権・ライセンス
+    path: /copyright/
+  - title: 奥付
+    path: /colophon/
+  - title: Changelog
+    path: /changelog/
+
+appendices:
+  - title: 付録A 成果物テンプレート集
+    path: /appendices/appendix-a/
+  - title: 付録B チェックリスト集
+    path: /appendices/appendix-b/
+  - title: 付録C スキル評価ルーブリック
+    path: /appendices/appendix-c/
+  - title: 付録D 職種別ユースケース集
+    path: /appendices/appendix-d/
+  - title: 付録E 用語集
+    path: /appendices/appendix-e/
+  - title: 付録F ワークショップ設計
+    path: /appendices/appendix-f/
+  - title: 付録G 認定・診断問題バンク
+    path: /appendices/appendix-g/
+  - title: 付録H ガバナンス・スターターパック
+    path: /appendices/appendix-h/
