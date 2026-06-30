@@ -158,7 +158,12 @@ def check_outputs() -> int:
             errors.append(f"missing figure asset: {svg.relative_to(ROOT)}")
         elif svg.stat().st_size == 0:
             errors.append(f"empty figure asset: {svg.relative_to(ROOT)}")
-    for mmd, _svg, expected in expected_mermaid_outputs():
+    try:
+        mermaid_outputs = expected_mermaid_outputs()
+    except Exception as exc:
+        errors.append(f"failed to extract Mermaid sources: {exc}")
+        mermaid_outputs = []
+    for mmd, _svg, expected in mermaid_outputs:
         if not mmd.exists():
             errors.append(f"missing Mermaid source: {mmd.relative_to(ROOT)}")
             continue

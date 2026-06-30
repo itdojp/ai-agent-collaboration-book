@@ -120,9 +120,13 @@ def make_excerpt(markdown: str, limit: int = 220) -> str:
         if CODE_FENCE_RE.match(line):
             in_code = not in_code
             continue
-        if in_code or line.startswith("#") or line.strip().startswith("|"):
+        stripped = line.strip()
+        if in_code or line.startswith("#") or stripped.startswith(("|", "!", "<")):
             continue
-        clean = re.sub(r"[`*_>#-]", " ", line).strip()
+        clean = re.sub(r"!\[[^\]]*\]\([^)]*\)", " ", line)
+        clean = re.sub(r"\[([^\]]+)\]\([^)]*\)", r"\1", clean)
+        clean = re.sub(r"<[^>]+>", " ", clean)
+        clean = re.sub(r"[`*_>#-]", " ", clean).strip()
         if clean:
             lines.append(clean)
         if sum(len(x) for x in lines) > limit:
