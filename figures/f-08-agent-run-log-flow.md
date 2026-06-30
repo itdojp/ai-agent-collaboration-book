@@ -51,3 +51,15 @@ flowchart LR
 | Review / Evaluation | 出力品質を改善へ戻す | 指摘を前工程へ接続する |
 
 第8章では、この流れを使って、再現、説明、監査、改善に使える実行証跡を設計する。
+
+## 関連章・利用箇所
+
+### 関連章
+
+- [第8章 ログ・トレース・継続改善](../manuscript/ch08-logs-observability.md): Run単位の証跡を設計する。
+
+### 本文での利用箇所
+
+- [第8章 ログ・トレース・継続改善](../manuscript/ch08-logs-observability.md): 依頼、前提、ツール実行、承認、レビュー、改善バックログを接続する。
+
+[← 図表索引へ戻る](../figure-index.md)

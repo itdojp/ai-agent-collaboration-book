@@ -58,3 +58,15 @@ AIエージェントのセキュリティは、モデル単体の問題ではな
 | 外部供給元 | SaaS、MCP、プラグインの信頼性 | External Tool / MCP Review Sheet、Vendor Review Record |
 
 第9章では、このリスクマップを使って、AI Security ChecklistとPrivacy Impact Reviewを設計する。
+
+## 関連章・利用箇所
+
+### 関連章
+
+- [第9章 セキュリティとプライバシー](../../chapters/chapter-09/): AI固有リスクを棚卸しする。
+
+### 本文での利用箇所
+
+- [第9章 セキュリティとプライバシー](../../chapters/chapter-09/): 入力、文脈、ツール、出力、ログ、外部供給元を攻撃面として確認する。
+
+[← 図表索引へ戻る](../../figure-index/)

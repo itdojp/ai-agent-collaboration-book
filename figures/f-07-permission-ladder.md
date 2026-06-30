@@ -40,3 +40,15 @@ flowchart TB
 | P7 | 管理者操作 | 権限変更、削除、課金変更 | 原則禁止または例外承認 |
 
 第7章では、この梯子を使ってツール権限マトリクス、HITL承認フロー、Permission Testを設計する。
+
+## 関連章・利用箇所
+
+### 関連章
+
+- [第7章 ツール・権限・HITL](../manuscript/ch07-tool-permission-hitl.md): ツール権限と承認ゲートを設計する。
+
+### 本文での利用箇所
+
+- [第7章 ツール・権限・HITL](../manuscript/ch07-tool-permission-hitl.md): AIに与える操作権限を段階化して確認する。
+
+[← 図表索引へ戻る](../figure-index.md)

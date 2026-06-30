@@ -65,7 +65,7 @@
       "title": "Changelog",
       "url": "/ai-agent-collaboration-book/changelog/",
       "source_path": "docs/changelog/index.md",
-      "excerpt": "初回公開版として、GitHub Pages向けJekyll公開ツリー、共通bookレイアウト、検索データ、Book QA、Pagesデプロイを整備。 IT Engineer Knowledge Architecture親サイトへ掲載し、公開URLを正式導線として追加。 Mermaid図表をSVG化し、公開サイトで図表が安定表示されるようにした。 Source Notesを公開読者向けの参考文献・出典管理ページへ整理し、内部監査メモを分離"
+      "excerpt": "図表ページへ関連章、本文での利用箇所、図表索引へ戻る導線を追加。 図表ページの下部ナビゲーションを通常章の前後移動ではなく、図表索引・目次へ戻る導線へ変更。 初回公開版として、GitHub Pages向けJekyll公開ツリー、共通bookレイアウト、検索データ、Book QA、Pagesデプロイを整備。 IT Engineer Knowledge Architecture親サイトへ掲載し、公開URLを正式導線として追加。 Mermai"
     },
     {
       "title": "第1章 AIエージェント協働とは何か",
@@ -197,103 +197,103 @@
       "title": "Figure Index: 図表計画",
       "url": "/ai-agent-collaboration-book/figure-index/",
       "source_path": "docs/figure-index/index.md",
-      "excerpt": "出版時には、章ごとに最低1つの図表を置く。図表は読者が記憶し、研修資料へ転用できるものに限定する。 各図表ページでは、公開サイトで最初にSVG画像を表示し、編集用のMermaidソースは折りたたみ表示にする。SVGは scripts/build figures.py で再生成する。 図表IDだけを手がかりに、用途と関連章を確認できる早見表である。詳細なファイル名やSVGリンクは、後続の「優先図表」「追加図表」で確認する。 1図1メッセー"
+      "excerpt": "出版時には、章ごとに最低1つの図表を置く。図表は読者が記憶し、研修資料へ転用できるものに限定する。 各図表ページでは、公開サイトで最初にSVG画像を表示し、編集用のMermaidソースは折りたたみ表示にする。SVGは scripts/build figures.py で再生成する。 各図表ページの末尾には、関連章、本文での利用箇所、図表索引へ戻る導線を置く。本文補助資料として読めるよう、公開サイト下部の通常「前へ/次へ」ナビゲーションは"
     },
     {
       "title": "F-00: AIエージェント協働ループ",
       "url": "/ai-agent-collaboration-book/figures/f-00-ai-agent-collaboration-loop/",
       "source_path": "docs/figures/f-00-ai-agent-collaboration-loop/index.md",
-      "excerpt": "この図は本書全体の基本ループである。AI活用を単発のプロンプトではなく、業務成果へ変換する反復プロセスとして扱う。"
+      "excerpt": "この図は本書全体の基本ループである。AI活用を単発のプロンプトではなく、業務成果へ変換する反復プロセスとして扱う。 第1章 AIエージェント協働とは何か: AIエージェント協働ループの基本概念を確認する。 Concept Map: 本書全体の反復ループとして参照する。 第1章 AIエージェント協働とは何か: チャット利用と業務協働システムの違いを説明する。 ← 図表索引へ戻る"
     },
     {
       "title": "F-01: 6層モデル",
       "url": "/ai-agent-collaboration-book/figures/f-01-six-layer-model/",
       "source_path": "docs/figures/f-01-six-layer-model/index.md",
-      "excerpt": "6層モデルは、章構成と成果物体系を整理するための背骨である。"
+      "excerpt": "6層モデルは、章構成と成果物体系を整理するための背骨である。 第0章 本書の読み方: 読み進め方と章構成を確認する。 第1章 AIエージェント協働とは何か: 6層モデルの全体像を理解する。 第0章 本書の読み方: 読者別導線と成果物体系の見取り図として使う。 第1章 AIエージェント協働とは何か: 本書の中核フレームワークとして使う。 ← 図表索引へ戻る"
     },
     {
       "title": "F-02: Request Contract / Context Pack / Task Brief の関係",
       "url": "/ai-agent-collaboration-book/figures/f-02-request-context-task-brief/",
       "source_path": "docs/figures/f-02-request-context-task-brief/index.md",
-      "excerpt": "Request Contractは「何をしてほしいか」、Context Packは「何を前提にするか」、Task Briefは「どの作業単位として委任するか」を定義する。"
+      "excerpt": "Request Contractは「何をしてほしいか」、Context Packは「何を前提にするか」、Task Briefは「どの作業単位として委任するか」を定義する。 第3章 依頼を契約にする: Request Contractを定義する。 第4章 Context Packを設計する: 前提と制約を渡す。 第5章 タスク分解と委任: Task Briefへ落とす。 第3章 依頼を契約にする: 第3章〜第5章で、Request、Con"
     },
     {
       "title": "F-03: Control層の流れ",
       "url": "/ai-agent-collaboration-book/figures/f-03-control-layer-flow/",
       "source_path": "docs/figures/f-03-control-layer-flow/index.md",
-      "excerpt": "Control層では、AI出力だけでなく、ツール実行、承認、ログ、セキュリティ、ガバナンスを一体で扱う。"
+      "excerpt": "Control層では、AI出力だけでなく、ツール実行、承認、ログ、セキュリティ、ガバナンスを一体で扱う。 第6章 AI出力レビューと評価: レビューと評価を設計する。 第7章 ツール・権限・HITL: 権限と承認を設計する。 第8章 ログ・トレース・継続改善: Run単位の記録を設計する。 第9章 セキュリティとプライバシー: AI固有リスクを扱う。 第10章 ガバナンスと統制: 統制サイクルへ接続する。 第6章 AI出力レビューと評価"
     },
     {
       "title": "F-04: Human / Org層の流れ",
       "url": "/ai-agent-collaboration-book/figures/f-04-human-org-layer-flow/",
       "source_path": "docs/figures/f-04-human-org-layer-flow/index.md",
-      "excerpt": "Human / Org層では、AIが代替しにくい判断、対話、実験、行動、育成、展開を扱う。"
+      "excerpt": "Human / Org層では、AIが代替しにくい判断、対話、実験、行動、育成、展開を扱う。 第11章 AI時代の判断力: 判断責任を扱う。 第12章 困難な会話と対立処理: 対話と対立を扱う。 第13章 失敗耐性と実験文化: 実験と学習を扱う。 第14章 セルフトークと高レバレッジ環境: 行動停止を扱う。 第15章 スキルマップと評価: 能力評価を扱う。 第16章 組織展開と教材化: 展開と教材化を扱う。 第11章 AI時代の判断力: "
     },
     {
       "title": "F-05: レベル接頭辞一覧",
       "url": "/ai-agent-collaboration-book/figures/f-05-level-prefixes/",
       "source_path": "docs/figures/f-05-level-prefixes/index.md",
-      "excerpt": "E0〜E5 は使わない。実験は X 、評価証拠は EV を使う。"
+      "excerpt": "E0〜E5 は使わない。実験は X 、評価証拠は EV を使う。 第15章 スキルマップと評価: スキルレベルと評価証拠を確認する。 付録E: 用語集: レベル接頭辞の用語を確認する。 第15章 スキルマップと評価: 評価証拠レベルやスキルレベルの表記を読み替える。 付録E: 用語集: 章横断の略語・接頭辞一覧として参照する。 ← 図表索引へ戻る"
     },
     {
       "title": "F-06: 90日展開ロードマップ",
       "url": "/ai-agent-collaboration-book/figures/f-06-90-day-rollout-roadmap/",
       "source_path": "docs/figures/f-06-90-day-rollout-roadmap/index.md",
-      "excerpt": "日付は例である。実務では90日を4フェーズに分け、設計、教材、パイロット、展開判断を行う。"
+      "excerpt": "日付は例である。実務では90日を4フェーズに分け、設計、教材、パイロット、展開判断を行う。 第16章 組織展開と教材化: 90日展開の計画を設計する。 第16章 組織展開と教材化: 設計、教材、パイロット、展開判断の順序を説明する。 ← 図表索引へ戻る"
     },
     {
       "title": "F-07: 権限レベル梯子",
       "url": "/ai-agent-collaboration-book/figures/f-07-permission-ladder/",
       "source_path": "docs/figures/f-07-permission-ladder/index.md",
-      "excerpt": "権限は「ツール単位」ではなく「操作単位」で設計する。原則として、外部影響、データ更新、顧客影響、本番影響、不可逆操作がある場合は P4: approval required 以上として扱う。 第7章では、この梯子を使ってツール権限マトリクス、HITL承認フロー、Permission Testを設計する。"
+      "excerpt": "権限は「ツール単位」ではなく「操作単位」で設計する。原則として、外部影響、データ更新、顧客影響、本番影響、不可逆操作がある場合は P4: approval required 以上として扱う。 第7章では、この梯子を使ってツール権限マトリクス、HITL承認フロー、Permission Testを設計する。 第7章 ツール・権限・HITL: ツール権限と承認ゲートを設計する。 第7章 ツール・権限・HITL: AIに与える操作権限を段階化し"
     },
     {
       "title": "F-08: Agent Run Logの流れ",
       "url": "/ai-agent-collaboration-book/figures/f-08-agent-run-log-flow/",
       "source_path": "docs/figures/f-08-agent-run-log-flow/index.md",
-      "excerpt": "ログは、最終出力を保存するだけでは不十分である。依頼、前提、委任単位、ツール実行、承認、レビュー、失敗、改善アクションをRun単位で接続する。 第8章では、この流れを使って、再現、説明、監査、改善に使える実行証跡を設計する。"
+      "excerpt": "ログは、最終出力を保存するだけでは不十分である。依頼、前提、委任単位、ツール実行、承認、レビュー、失敗、改善アクションをRun単位で接続する。 第8章では、この流れを使って、再現、説明、監査、改善に使える実行証跡を設計する。 第8章 ログ・トレース・継続改善: Run単位の証跡を設計する。 第8章 ログ・トレース・継続改善: 依頼、前提、ツール実行、承認、レビュー、改善バックログを接続する。 ← 図表索引へ戻る"
     },
     {
       "title": "F-09: AIセキュリティリスクマップ",
       "url": "/ai-agent-collaboration-book/figures/f-09-ai-security-risk-map/",
       "source_path": "docs/figures/f-09-ai-security-risk-map/index.md",
-      "excerpt": "AIエージェントのセキュリティは、モデル単体の問題ではない。入力、文脈、ツール、出力、ログ、外部供給元をまたぐ業務システムの設計問題である。 第9章では、このリスクマップを使って、AI Security ChecklistとPrivacy Impact Reviewを設計する。"
+      "excerpt": "AIエージェントのセキュリティは、モデル単体の問題ではない。入力、文脈、ツール、出力、ログ、外部供給元をまたぐ業務システムの設計問題である。 第9章では、このリスクマップを使って、AI Security ChecklistとPrivacy Impact Reviewを設計する。 第9章 セキュリティとプライバシー: AI固有リスクを棚卸しする。 第9章 セキュリティとプライバシー: 入力、文脈、ツール、出力、ログ、外部供給元を攻撃面とし"
     },
     {
       "title": "F-10: AIガバナンス運用サイクル",
       "url": "/ai-agent-collaboration-book/figures/f-10-ai-governance-cycle/",
       "source_path": "docs/figures/f-10-ai-governance-cycle/index.md",
-      "excerpt": "AIガバナンスは、AI利用を止めるためではなく、安全にスケールさせるための運用サイクルである。低リスク利用は速く通し、高リスク利用は台帳、承認、証跡、教育、廃止まで管理する。 第10章では、このサイクルをAI CoE、部門責任者、情シス、法務、セキュリティの運用責任へ接続する。"
+      "excerpt": "AIガバナンスは、AI利用を止めるためではなく、安全にスケールさせるための運用サイクルである。低リスク利用は速く通し、高リスク利用は台帳、承認、証跡、教育、廃止まで管理する。 第10章では、このサイクルをAI CoE、部門責任者、情シス、法務、セキュリティの運用責任へ接続する。 第10章 ガバナンスと統制: 統制サイクルを設計する。 第10章 ガバナンスと統制: 利用申請、台帳化、分類、承認、運用、監査、廃止を循環として扱う。 ← 図表"
     },
     {
       "title": "F-11: 判断責任分界",
       "url": "/ai-agent-collaboration-book/figures/f-11-decision-responsibility-boundary/",
       "source_path": "docs/figures/f-11-decision-responsibility-boundary/index.md",
-      "excerpt": "AIは判断材料を作れるが、判断責任を引き受けることはできない。AI時代の判断力は、AI提案を信じる力ではなく、何を採用し、何を捨て、何を止め、どのリスクを誰が受けるかを明示する力である。 第11章では、この責任分界をDecision Brief、Kill Decision Sheet、Risk Acceptance Memoへ落とす。"
+      "excerpt": "AIは判断材料を作れるが、判断責任を引き受けることはできない。AI時代の判断力は、AI提案を信じる力ではなく、何を採用し、何を捨て、何を止め、どのリスクを誰が受けるかを明示する力である。 第11章では、この責任分界をDecision Brief、Kill Decision Sheet、Risk Acceptance Memoへ落とす。 第11章 AI時代の判断力: AI提案と人間判断の境界を定義する。 第11章 AI時代の判断力: AI"
     },
     {
       "title": "F-12: Connection Debtの蓄積構造",
       "url": "/ai-agent-collaboration-book/figures/f-12-connection-debt-structure/",
       "source_path": "docs/figures/f-12-connection-debt-structure/index.md",
-      "excerpt": "Connection Debtは、重要な相手に言うべきことを言わないことで蓄積する組織負債である。AI導入が進むと、未合意の前提や責任境界がAI出力の品質問題に見えやすくなる。 第12章では、AIを「対話の代替」ではなく、対立構造の整理と直接会話の準備に使う。"
+      "excerpt": "Connection Debtは、重要な相手に言うべきことを言わないことで蓄積する組織負債である。AI導入が進むと、未合意の前提や責任境界がAI出力の品質問題に見えやすくなる。 第12章では、AIを「対話の代替」ではなく、対立構造の整理と直接会話の準備に使う。 第12章 困難な会話と対立処理: Connection Debtの構造を確認する。 第12章 困難な会話と対立処理: 言えていない懸念が組織負債へ変わる流れを説明する。 ← 図表"
     },
     {
       "title": "F-13: 実験学習ループ",
       "url": "/ai-agent-collaboration-book/figures/f-13-experiment-learning-loop/",
       "source_path": "docs/figures/f-13-experiment-learning-loop/index.md",
-      "excerpt": "実験文化は、失敗を美化することではない。成功条件、失敗条件、即時停止条件、やめる条件を先に決め、実験結果を学習ログと廃棄判断へ接続することである。 第13章では、判断できない論点や未処理の対立を、検証可能な小実験へ変換する。"
+      "excerpt": "実験文化は、失敗を美化することではない。成功条件、失敗条件、即時停止条件、やめる条件を先に決め、実験結果を学習ログと廃棄判断へ接続することである。 第13章では、判断できない論点や未処理の対立を、検証可能な小実験へ変換する。 第13章 失敗耐性と実験文化: 小実験と学習を設計する。 第13章 失敗耐性と実験文化: 仮説、最小実験、実行、学習、判断を接続する。 ← 図表索引へ戻る"
     },
     {
       "title": "F-14: Action Blocker構造",
       "url": "/ai-agent-collaboration-book/figures/f-14-action-blocker-structure/",
       "source_path": "docs/figures/f-14-action-blocker-structure/index.md",
-      "excerpt": "セルフトークは、個人の気分だけではなく、実験速度、レビュー依頼、判断、共有を止める業務上の摩擦になる。重要なのは、自己批判をなくすことではなく、止まっている行動を特定し、レビュー可能な最小行動へ変換することである。 第14章では、Action Blocker診断、Self talk Transcript、Minimum Action Contractを使って、行動停止を業務設計問題として扱う。"
+      "excerpt": "セルフトークは、個人の気分だけではなく、実験速度、レビュー依頼、判断、共有を止める業務上の摩擦になる。重要なのは、自己批判をなくすことではなく、止まっている行動を特定し、レビュー可能な最小行動へ変換することである。 第14章では、Action Blocker診断、Self talk Transcript、Minimum Action Contractを使って、行動停止を業務設計問題として扱う。 第14章 セルフトークと高レバレッジ環境:"
     },
     {
       "title": "F-15: スキルレベルマップ",
       "url": "/ai-agent-collaboration-book/figures/f-15-skill-level-map/",
       "source_path": "docs/figures/f-15-skill-level-map/index.md",
-      "excerpt": "スキルレベルは、プロンプトの上手さだけでは判定しない。成果物、実技課題、レビュー証跡、運用証跡、判断記録を組み合わせて評価する。 第15章では、このマップを12能力領域、Role Skill Profile、Evidence Portfolio、Certification Criteriaへ展開する。第16章では、評価結果を教材化、権限付与、Office Hour、90日展開計画へ接続する。"
+      "excerpt": "スキルレベルは、プロンプトの上手さだけでは判定しない。成果物、実技課題、レビュー証跡、運用証跡、判断記録を組み合わせて評価する。 第15章では、このマップを12能力領域、Role Skill Profile、Evidence Portfolio、Certification Criteriaへ展開する。第16章では、評価結果を教材化、権限付与、Office Hour、90日展開計画へ接続する。 第15章 スキルマップと評価: スキルレベル"
     },
     {
       "title": "AIエージェント協働の仕事術",

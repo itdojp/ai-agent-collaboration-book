@@ -31,3 +31,17 @@ flowchart LR
 | Lv6 | 全社設計 | AI System Inventory、Risk Register、Governance Review | AI Governance Owner / CoE |
 
 第15章では、このマップを12能力領域、Role Skill Profile、Evidence Portfolio、Certification Criteriaへ展開する。第16章では、評価結果を教材化、権限付与、Office Hour、90日展開計画へ接続する。
+
+## 関連章・利用箇所
+
+### 関連章
+
+- [第15章 スキルマップと評価](../manuscript/ch15-skill-map.md): スキルレベルと評価証拠を定義する。
+- [第16章 組織展開と教材化](../manuscript/ch16-org-rollout.md): 評価結果を教材化と権限付与へ接続する。
+
+### 本文での利用箇所
+
+- [第15章 スキルマップと評価](../manuscript/ch15-skill-map.md): Lv1〜Lv6を評価証拠と権限・役割に対応づける。
+- [第16章 組織展開と教材化](../manuscript/ch16-org-rollout.md): Role-based Learning Pathや認定運用へ接続する。
+
+[← 図表索引へ戻る](../figure-index.md)

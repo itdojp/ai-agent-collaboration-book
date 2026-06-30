@@ -137,6 +137,18 @@ level of such grouping so only leaf items (having `path`/`url`) participate.
 {%- endif -%}
 
 {% unless _is_root %}
+{% if page.book_section == "figures" %}
+<nav class="book-navigation figure-navigation" aria-label="Figure navigation">
+  <div class="chapter-nav figure-nav">
+    <a href="{{ '/figure-index/' | relative_url }}" class="nav-home">
+      <span class="label">図表索引へ戻る</span>
+    </a>
+    <a href="{{ '/' | relative_url }}" class="nav-home">
+      <span class="label">目次へ</span>
+    </a>
+  </div>
+</nav>
+{% else %}
 <nav class="book-navigation" aria-label="Chapter navigation">
   <div class="chapter-nav">
     {% if previous_item %}
@@ -198,11 +210,14 @@ level of such grouping so only leaf items (having `path`/`url`) participate.
     {% endif %}
   </div>
 </nav>
+{% endif %}
 {% endunless %}
 
 <style>
 .book-navigation { margin: 2rem 0; padding: 1rem; border-top: 1px solid var(--border-color, #e5e7eb); }
 .chapter-nav { display: flex; justify-content: space-between; align-items: center; gap: 1rem; }
+.figure-nav { justify-content: center; flex-wrap: wrap; }
+.figure-nav .nav-home { flex: 0 1 auto; }
 .nav-prev, .nav-next, .nav-home { display: flex; align-items: center; padding: 0.75rem 1.25rem; background: var(--bg-primary, #fff); border: 1px solid var(--border-color, #e5e7eb); border-radius: 6px; text-decoration: none; color: inherit; }
 .nav-disabled { opacity: .5; cursor: not-allowed; background: var(--bg-tertiary, #f9fafb); border: 1px solid var(--border-color, #e5e7eb); border-radius: 6px; padding: 0.75rem 1.25rem; display: flex; align-items: center; }
 .nav-prev { flex: 1; }
