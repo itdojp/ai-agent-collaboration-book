@@ -181,6 +181,33 @@ def check_outputs() -> int:
     return 0
 
 
+def check_extract_outputs() -> int:
+    errors: list[str] = []
+    try:
+        mermaid_outputs = expected_mermaid_outputs()
+    except Exception as exc:
+        errors.append(f"failed to extract Mermaid sources: {exc}")
+        mermaid_outputs = []
+    for mmd, _svg, expected in mermaid_outputs:
+        if not mmd.exists():
+            errors.append(f"missing Mermaid source: {mmd.relative_to(ROOT)}")
+            continue
+        actual = mmd.read_text(encoding="utf-8")
+        if actual != expected:
+            errors.append(f"stale Mermaid source: {mmd.relative_to(ROOT)}")
+    level_svg = ASSETS / "f-05-level-prefixes.svg"
+    if not level_svg.exists():
+        errors.append(f"missing static figure asset: {level_svg.relative_to(ROOT)}")
+    elif level_svg.read_text(encoding="utf-8") != level_prefix_svg_text():
+        errors.append(f"stale static figure asset: {level_svg.relative_to(ROOT)}")
+    if errors:
+        for error in errors:
+            print(error, file=sys.stderr)
+        return 1
+    print(f"figure extraction outputs OK ({len(mermaid_outputs)} Mermaid sources and 1 static SVG)")
+    return 0
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="Extract Mermaid sources and render committed SVG figure assets.")
     parser.add_argument("--extract-only", action="store_true", help="write .mmd sources and static SVG without running Mermaid CLI")
@@ -192,7 +219,8 @@ def main() -> int:
     write_level_prefix_svg()
     if not args.extract_only:
         render_mermaid(pairs)
-    return check_outputs()
+        return check_outputs()
+    return check_extract_outputs()
 
 
 if __name__ == "__main__":
