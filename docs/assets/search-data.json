@@ -215,19 +215,19 @@
       "title": "F-02: Request Contract / Context Pack / Task Brief の関係",
       "url": "/ai-agent-collaboration-book/figures/f-02-request-context-task-brief/",
       "source_path": "docs/figures/f-02-request-context-task-brief/index.md",
-      "excerpt": "Request Contractは「何をしてほしいか」、Context Packは「何を前提にするか」、Task Briefは「どの作業単位として委任するか」を定義する。 第3章 依頼を契約にする: Request Contractを定義する。 第4章 Context Packを設計する: 前提と制約を渡す。 第5章 タスク分解と委任: Task Briefへ落とす。 第3章〜第5章: Request、Context、Delegatio"
+      "excerpt": "Request Contractは「何をしてほしいか」、Context Packは「何を前提にするか」、Task Briefは「どの作業単位として委任するか」を定義する。 第3章 依頼を契約にする: Request Contractを定義する。 第4章 Context Packを設計する: 前提と制約を渡す。 第5章 タスク分解と委任: Task Briefへ落とす。 第3章 依頼を契約にする: 第3章〜第5章で、Request、Con"
     },
     {
       "title": "F-03: Control層の流れ",
       "url": "/ai-agent-collaboration-book/figures/f-03-control-layer-flow/",
       "source_path": "docs/figures/f-03-control-layer-flow/index.md",
-      "excerpt": "Control層では、AI出力だけでなく、ツール実行、承認、ログ、セキュリティ、ガバナンスを一体で扱う。 第6章 AI出力レビューと評価: レビューと評価を設計する。 第7章 ツール・権限・HITL: 権限と承認を設計する。 第8章 ログ・トレース・継続改善: Run単位の記録を設計する。 第9章 セキュリティとプライバシー: AI固有リスクを扱う。 第10章 ガバナンスと統制: 統制サイクルへ接続する。 第6章〜第10章: Contr"
+      "excerpt": "Control層では、AI出力だけでなく、ツール実行、承認、ログ、セキュリティ、ガバナンスを一体で扱う。 第6章 AI出力レビューと評価: レビューと評価を設計する。 第7章 ツール・権限・HITL: 権限と承認を設計する。 第8章 ログ・トレース・継続改善: Run単位の記録を設計する。 第9章 セキュリティとプライバシー: AI固有リスクを扱う。 第10章 ガバナンスと統制: 統制サイクルへ接続する。 第6章 AI出力レビューと評価"
     },
     {
       "title": "F-04: Human / Org層の流れ",
       "url": "/ai-agent-collaboration-book/figures/f-04-human-org-layer-flow/",
       "source_path": "docs/figures/f-04-human-org-layer-flow/index.md",
-      "excerpt": "Human / Org層では、AIが代替しにくい判断、対話、実験、行動、育成、展開を扱う。 第11章 AI時代の判断力: 判断責任を扱う。 第12章 困難な会話と対立処理: 対話と対立を扱う。 第13章 失敗耐性と実験文化: 実験と学習を扱う。 第14章 セルフトークと高レバレッジ環境: 行動停止を扱う。 第15章 スキルマップと評価: 能力評価を扱う。 第16章 組織展開と教材化: 展開と教材化を扱う。 第11章〜第16章: Huma"
+      "excerpt": "Human / Org層では、AIが代替しにくい判断、対話、実験、行動、育成、展開を扱う。 第11章 AI時代の判断力: 判断責任を扱う。 第12章 困難な会話と対立処理: 対話と対立を扱う。 第13章 失敗耐性と実験文化: 実験と学習を扱う。 第14章 セルフトークと高レバレッジ環境: 行動停止を扱う。 第15章 スキルマップと評価: 能力評価を扱う。 第16章 組織展開と教材化: 展開と教材化を扱う。 第11章 AI時代の判断力: "
     },
     {
       "title": "F-05: レベル接頭辞一覧",
