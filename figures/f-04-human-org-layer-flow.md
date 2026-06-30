@@ -1,5 +1,10 @@
 # F-04: Human / Org層の流れ
 
+![F-04: Human / Org層の流れ](assets/f-04-human-org-layer-flow.svg)
+
+<details markdown="1">
+<summary>Mermaidソース</summary>
+
 ```mermaid
 flowchart LR
     DEC[判断<br/>第11章] --> CONFLICT[対立処理<br/>第12章]
@@ -9,5 +14,7 @@ flowchart LR
     SKILL --> ROLL[組織展開<br/>第16章]
     ROLL --> DEC
 ```
+
+</details>
 
 Human / Org層では、AIが代替しにくい判断、対話、実験、行動、育成、展開を扱う。

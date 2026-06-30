@@ -126,6 +126,11 @@ AIエージェントが検索、分類、抽出、生成、下書き、実行補
 
 このループの中心にあるのは、AIとの会話ではない。中心にあるのは、業務成果物、責任境界、レビュー、改善である。
 
+![AIエージェント協働ループ](../figures/assets/chapter-01-collaboration-loop.svg)
+
+<details markdown="1">
+<summary>Mermaidソース（編集元）</summary>
+
 ```mermaid
 flowchart LR
     A[Work\n仕事を選ぶ] --> B[Request\n依頼を契約にする]
@@ -135,6 +140,8 @@ flowchart LR
     E --> F[Human / Org\n判断・対話・実験で学習する]
     F --> A
 ```
+
+</details>
 
 詳細な全体像は [Concept Map](../concept-map.md) を参照する。
 

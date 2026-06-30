@@ -6,6 +6,11 @@ book_section: "figures"
 ---
 # F-06: 90日展開ロードマップ
 
+![F-06: 90日展開ロードマップ](../assets/f-06-90-day-rollout-roadmap.svg)
+
+<details markdown="1">
+<summary>Mermaidソース</summary>
+
 ```mermaid
 gantt
     title AIエージェント協働 90日展開ロードマップ
@@ -24,5 +29,7 @@ gantt
     KPIレビューと改善              :d1, 2026-03-20, 7d
     拡大・縮小・停止判断            :d2, after d1, 7d
 ```
+
+</details>
 
 日付は例である。実務では90日を4フェーズに分け、設計、教材、パイロット、展開判断を行う。

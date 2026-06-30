@@ -6,6 +6,11 @@ book_section: "figures"
 ---
 # F-01: 6層モデル
 
+![F-01: 6層モデル](../assets/f-01-six-layer-model.svg)
+
+<details markdown="1">
+<summary>Mermaidソース</summary>
+
 ```mermaid
 flowchart TB
     W[Work<br/>どの仕事にAIを使うか]
@@ -17,5 +22,7 @@ flowchart TB
 
     W --> R --> C --> D --> CTRL --> H
 ```
+
+</details>
 
 6層モデルは、章構成と成果物体系を整理するための背骨である。

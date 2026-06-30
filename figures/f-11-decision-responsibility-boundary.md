@@ -1,5 +1,10 @@
 # F-11: 判断責任分界
 
+![F-11: 判断責任分界](assets/f-11-decision-responsibility-boundary.svg)
+
+<details markdown="1">
+<summary>Mermaidソース</summary>
+
 ```mermaid
 flowchart LR
     subgraph AI[AIが支援できること]
@@ -37,6 +42,8 @@ flowchart LR
     H4 --> D4
     H5 --> D4
 ```
+
+</details>
 
 AIは判断材料を作れるが、判断責任を引き受けることはできない。AI時代の判断力は、AI提案を信じる力ではなく、何を採用し、何を捨て、何を止め、どのリスクを誰が受けるかを明示する力である。
 

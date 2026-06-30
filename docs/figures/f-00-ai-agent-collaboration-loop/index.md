@@ -6,6 +6,11 @@ book_section: "figures"
 ---
 # F-00: AIエージェント協働ループ
 
+![F-00: AIエージェント協働ループ](../assets/f-00-ai-agent-collaboration-loop.svg)
+
+<details markdown="1">
+<summary>Mermaidソース</summary>
+
 ```mermaid
 flowchart LR
     A[仕事を選ぶ<br/>Work] --> B[依頼を契約にする<br/>Request]
@@ -17,5 +22,7 @@ flowchart LR
     G --> H[人間が判断し実験で学習する<br/>Human / Org]
     H --> A
 ```
+
+</details>
 
 この図は本書全体の基本ループである。AI活用を単発のプロンプトではなく、業務成果へ変換する反復プロセスとして扱う。

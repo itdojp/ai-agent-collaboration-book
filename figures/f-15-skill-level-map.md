@@ -1,5 +1,10 @@
 # F-15: スキルレベルマップ
 
+![F-15: スキルレベルマップ](assets/f-15-skill-level-map.svg)
+
+<details markdown="1">
+<summary>Mermaidソース</summary>
+
 ```mermaid
 flowchart LR
     L1[Lv1<br/>AI利用者<br/>基本利用・ルール遵守]
@@ -11,6 +16,8 @@ flowchart LR
 
     L1 --> L2 --> L3 --> L4 --> L5 --> L6
 ```
+
+</details>
 
 スキルレベルは、プロンプトの上手さだけでは判定しない。成果物、実技課題、レビュー証跡、運用証跡、判断記録を組み合わせて評価する。
 

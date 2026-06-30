@@ -1,0 +1,18 @@
+flowchart LR
+    TASK[必要な行動<br/>共有・レビュー依頼・実験開始]
+    TALK[セルフトーク<br/>失敗したらまずい / まだ不十分]
+    MIX[リスク混同<br/>実リスクと想像上のリスクが混ざる]
+    BLOCK[行動停止<br/>先送り・過剰レビュー・抱え込み]
+
+    TASK --> TALK --> MIX --> BLOCK
+
+    DIAG[Action Blocker診断]
+    SEP[実リスク / 想像上のリスクを分ける]
+    SAFE[安全策<br/>レビュー観点・承認・範囲制限]
+    MIN[Minimum Action Contract<br/>最小行動]
+    SUPPORT[Support Request<br/>支援依頼]
+
+    BLOCK --> DIAG --> SEP
+    SEP --> SAFE --> MIN
+    SEP --> SUPPORT --> MIN
+    MIN --> TASK

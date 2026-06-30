@@ -180,6 +180,12 @@ def relative_site_link(current_dest: str, target_dest: str, fragment: str = "") 
     return rel.rstrip("/") + "/" + fragment
 
 
+def relative_asset_link(current_dest: str, asset_dest: str, fragment: str = "") -> str:
+    current_dir = site_dir_for_dest(current_dest)
+    rel = posixpath.relpath(asset_dest, current_dir)
+    return rel + fragment
+
+
 def rewrite_links(markdown: str, source: str, dest: str, source_to_dest: dict[str, str]) -> str:
     source_path = (ROOT / source).resolve()
     out_lines: list[str] = []
@@ -208,6 +214,9 @@ def rewrite_links(markdown: str, source: str, dest: str, source_to_dest: dict[st
                 return match.group(0)
             if target_rel in source_to_dest:
                 url = relative_site_link(dest, source_to_dest[target_rel], fragment)
+                return before + formatter.format(url=url) + after
+            if target_rel.startswith("figures/assets/") and target.exists():
+                url = relative_asset_link(dest, target_rel, fragment)
                 return before + formatter.format(url=url) + after
             if target.exists():
                 url = f"{REPOSITORY_URL}/blob/main/{target_rel}{fragment}"
@@ -284,13 +293,32 @@ def build_outputs() -> dict[Path, str]:
     return rendered
 
 
-def write_outputs(outputs: dict[Path, str]) -> None:
+def build_asset_outputs() -> dict[Path, bytes]:
+    outputs: dict[Path, bytes] = {}
+    asset_root = ROOT / "figures" / "assets"
+    if not asset_root.exists():
+        return outputs
+    public_suffixes = {".svg", ".png", ".jpg", ".jpeg", ".gif", ".webp"}
+    for source in sorted(asset_root.rglob("*")):
+        if not source.is_file():
+            continue
+        if source.suffix.lower() not in public_suffixes:
+            continue
+        rel = source.relative_to(asset_root)
+        outputs[DOCS / "figures" / "assets" / rel] = source.read_bytes()
+    return outputs
+
+
+def write_outputs(outputs: dict[Path, str], asset_outputs: dict[Path, bytes]) -> None:
     for path, content in outputs.items():
         path.parent.mkdir(parents=True, exist_ok=True)
         path.write_text(content, encoding="utf-8")
+    for path, content in asset_outputs.items():
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_bytes(content)
 
 
-def check_outputs(outputs: dict[Path, str]) -> list[str]:
+def check_outputs(outputs: dict[Path, str], asset_outputs: dict[Path, bytes]) -> list[str]:
     errors: list[str] = []
     for path, expected in outputs.items():
         if not path.exists():
@@ -299,6 +327,13 @@ def check_outputs(outputs: dict[Path, str]) -> list[str]:
         actual = path.read_text(encoding="utf-8")
         if actual != expected:
             errors.append(f"generated file is stale: {path.relative_to(ROOT)}")
+    for path, expected in asset_outputs.items():
+        if not path.exists():
+            errors.append(f"missing generated asset: {path.relative_to(ROOT)}")
+            continue
+        actual = path.read_bytes()
+        if actual != expected:
+            errors.append(f"generated asset is stale: {path.relative_to(ROOT)}")
     return errors
 
 
@@ -308,16 +343,17 @@ def main(argv: list[str] | None = None) -> int:
     args = parser.parse_args(argv)
 
     outputs = build_outputs()
+    asset_outputs = build_asset_outputs()
     if args.check:
-        errors = check_outputs(outputs)
+        errors = check_outputs(outputs, asset_outputs)
         if errors:
             for error in errors:
                 print(error, file=sys.stderr)
             return 1
         print("published docs are in sync")
         return 0
-    write_outputs(outputs)
-    print(f"wrote {len(outputs)} generated docs/search files")
+    write_outputs(outputs, asset_outputs)
+    print(f"wrote {len(outputs)} generated docs/search files and {len(asset_outputs)} assets")
     return 0
 
 

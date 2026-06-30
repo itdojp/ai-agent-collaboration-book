@@ -1,5 +1,10 @@
 # F-13: 実験学習ループ
 
+![F-13: 実験学習ループ](assets/f-13-experiment-learning-loop.svg)
+
+<details markdown="1">
+<summary>Mermaidソース</summary>
+
 ```mermaid
 flowchart LR
     H[仮説<br/>何を検証するか]
@@ -17,6 +22,8 @@ flowchart LR
     D --> ITER --> H
     D --> KILL
 ```
+
+</details>
 
 実験文化は、失敗を美化することではない。成功条件、失敗条件、即時停止条件、やめる条件を先に決め、実験結果を学習ログと廃棄判断へ接続することである。
 

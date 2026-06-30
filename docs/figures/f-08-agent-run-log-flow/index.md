@@ -6,6 +6,11 @@ book_section: "figures"
 ---
 # F-08: Agent Run Logの流れ
 
+![F-08: Agent Run Logの流れ](../assets/f-08-agent-run-log-flow.svg)
+
+<details markdown="1">
+<summary>Mermaidソース</summary>
+
 ```mermaid
 flowchart LR
     RC[Request Contract<br/>目的・成果物・制約]
@@ -38,6 +43,8 @@ flowchart LR
     IB --> CP
     IB --> TB
 ```
+
+</details>
 
 ログは、最終出力を保存するだけでは不十分である。依頼、前提、委任単位、ツール実行、承認、レビュー、失敗、改善アクションをRun単位で接続する。
 

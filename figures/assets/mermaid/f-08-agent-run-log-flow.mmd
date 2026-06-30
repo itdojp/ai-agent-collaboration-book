@@ -1,0 +1,30 @@
+flowchart LR
+    RC[Request Contract<br/>目的・成果物・制約]
+    CP[Context Pack<br/>前提・資料・鮮度]
+    TB[Task Brief<br/>委任単位]
+
+    RUN[Agent Run Log<br/>Run ID / Correlation ID]
+
+    TE[Trace Event Record<br/>モデル応答・状態遷移]
+    TL[Tool Execution Log<br/>ツール・引数・結果]
+    AL[Approval Log<br/>承認者・判断・理由]
+    RL[Review / Evaluation Log<br/>指摘・判定・スコア]
+
+    RR[Run Review Report<br/>何が起きたか]
+    IB[Improvement Backlog<br/>次に直すこと]
+
+    RC --> RUN
+    CP --> RUN
+    TB --> RUN
+    RUN --> TE
+    RUN --> TL
+    RUN --> AL
+    RUN --> RL
+    TE --> RR
+    TL --> RR
+    AL --> RR
+    RL --> RR
+    RR --> IB
+    IB --> RC
+    IB --> CP
+    IB --> TB

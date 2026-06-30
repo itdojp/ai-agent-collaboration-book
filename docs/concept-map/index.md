@@ -10,6 +10,11 @@ book_section: "introduction"
 
 ## AIエージェント協働ループ
 
+![AIエージェント協働ループ](../figures/assets/concept-map.svg)
+
+<details markdown="1">
+<summary>Mermaidソース（編集元）</summary>
+
 ```mermaid
 flowchart LR
     A[仕事を選ぶ
@@ -31,6 +36,8 @@ Discernment]
 Experiment]
     I --> A
 ```
+
+</details>
 
 ## 6つの設計層
 

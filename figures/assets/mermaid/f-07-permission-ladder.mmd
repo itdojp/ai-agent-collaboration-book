@@ -1,0 +1,16 @@
+flowchart TB
+    P0[P0: no-access<br/>アクセス不可]
+    P1[P1: read-only<br/>参照のみ]
+    P2[P2: draft-only<br/>下書きのみ]
+    P3[P3: proposal-only<br/>変更案のみ]
+    P4[P4: approval-required<br/>承認後に実行]
+    P5[P5: limited-write<br/>限定書き込み]
+    P6[P6: write<br/>広範な書き込み]
+    P7[P7: admin<br/>管理者操作]
+
+    P0 --> P1 --> P2 --> P3 --> P4 --> P5 --> P6 --> P7
+
+    H[HITL必須領域] -.-> P4
+    H -.-> P5
+    H -.-> P6
+    H -.-> P7

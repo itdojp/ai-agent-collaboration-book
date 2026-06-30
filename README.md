@@ -49,12 +49,12 @@ AIエージェント協働とは、業務目的を明確化し、依頼・コン
 | `docs/` | GitHub Pages 用 Jekyll 公開ツリー。共通 book レイアウト、ナビゲーション、検索データを含む。 |
 | `manuscript/` | 章本文の編集元。第0章〜第16章を配置。 |
 | `appendices/` | 付録A〜Hの編集元。 |
-| `figures/` | 図表説明ページの編集元。 |
+| `figures/` | 図表説明ページの編集元。SVG生成物は `figures/assets/` に配置する。 |
 | `examples/`, `exercises/` | 継続ケースと演習問題の編集元。 |
 | `planning/`, `review/` | 執筆計画、レビュー記録、親サイト掲載メモなどのリポジトリ資料。書籍サイトの主要導線には含めない。 |
-| `scripts/` | 公開ツリー同期、リンク検証、メタデータ検証のスクリプト。 |
+| `scripts/` | 図表SVG生成、公開ツリー同期、リンク検証、メタデータ検証のスクリプト。 |
 
-`docs/` の Markdown は `scripts/sync_published_docs.py` で編集元から生成します。本文を変更した場合は、編集元ファイルを更新してから `npm run sync:docs` を実行してください。
+`docs/` の Markdown は `scripts/sync_published_docs.py` で編集元から生成します。本文を変更した場合は、編集元ファイルを更新してから `npm run sync:docs` を実行してください。Mermaid図表のSVG生成手順は [FIGURE_BUILD.md](FIGURE_BUILD.md) を参照してください。
 
 ## ローカル検証
 
@@ -64,6 +64,7 @@ AIエージェント協働とは、業務目的を明確化し、依頼・コン
 npm ci
 python -m pip install -r requirements.txt
 bundle install
+npm run build:figures
 npm run sync:docs
 npm test
 npm audit --audit-level=moderate

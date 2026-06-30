@@ -24,6 +24,11 @@ AI活用がうまくいかない場合、まずプロンプトだけを直さな
 
 ## 問題切り分けフロー
 
+![問題切り分けフロー](../figures/assets/troubleshooting-flow.svg)
+
+<details markdown="1">
+<summary>Mermaidソース（編集元）</summary>
+
 ```mermaid
 flowchart TD
     A[AI活用がうまくいかない] --> B{対象業務は適切か}
@@ -44,6 +49,8 @@ flowchart TD
     I -- Yes --> I1[第11〜14章: 判断・対話・実験を扱う]
     I -- No --> J[仕組みを標準化し、第16章へ進む]
 ```
+
+</details>
 
 ## 最初にやる修正
 

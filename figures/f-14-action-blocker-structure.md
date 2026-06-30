@@ -1,5 +1,10 @@
 # F-14: Action Blocker構造
 
+![F-14: Action Blocker構造](assets/f-14-action-blocker-structure.svg)
+
+<details markdown="1">
+<summary>Mermaidソース</summary>
+
 ```mermaid
 flowchart LR
     TASK[必要な行動<br/>共有・レビュー依頼・実験開始]
@@ -20,6 +25,8 @@ flowchart LR
     SEP --> SUPPORT --> MIN
     MIN --> TASK
 ```
+
+</details>
 
 セルフトークは、個人の気分だけではなく、実験速度、レビュー依頼、判断、共有を止める業務上の摩擦になる。重要なのは、自己批判をなくすことではなく、止まっている行動を特定し、レビュー可能な最小行動へ変換することである。
 

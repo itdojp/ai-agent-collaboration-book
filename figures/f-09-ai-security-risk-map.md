@@ -1,5 +1,10 @@
 # F-09: AIセキュリティリスクマップ
 
+![F-09: AIセキュリティリスクマップ](assets/f-09-ai-security-risk-map.svg)
+
+<details markdown="1">
+<summary>Mermaidソース</summary>
+
 ```mermaid
 flowchart TB
     AG[AIエージェント]
@@ -32,6 +37,8 @@ flowchart TB
     LOG -.-> C5
     SUP -.-> C6
 ```
+
+</details>
 
 AIエージェントのセキュリティは、モデル単体の問題ではない。入力、文脈、ツール、出力、ログ、外部供給元をまたぐ業務システムの設計問題である。
 
