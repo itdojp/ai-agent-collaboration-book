@@ -827,10 +827,8 @@ Context Pack をAIに渡す前に、次を確認する。
 
 本章のContext Packは、本書内の実務設計上の概念であり、特定のRAG製品、メモリ機能、MCP実装、AIツールの仕様名ではない。コンテキスト設計、長時間タスク、ツール返却情報の考え方は、以下の外部資料を参照軸にしている。
 
-```text
-出典キー: SRC-ANTHROPIC-CONTEXT, SRC-ANTHROPIC-TOOLS, SRC-OPENAI-AGENTS
-詳細URLと確認日は source-notes.md を参照。
-```
+- 出典キー: [SRC-ANTHROPIC-CONTEXT](../../source-notes/#src-anthropic-context), [SRC-ANTHROPIC-TOOLS](../../source-notes/#src-anthropic-tools), [SRC-OPENAI-AGENTS](../../source-notes/#src-openai-agents)
+- 詳細URLと確認日は [Source Notes](../../source-notes/) を参照。
 
 利用するAIサービス、社内ナレッジ基盤、ログ管理、データ保持条件、機密情報の扱いは組織ごとに異なる。実導入時には、自社の情報分類、セキュリティ規程、法務・コンプライアンス要件、利用ツールの公式仕様を確認する。
 

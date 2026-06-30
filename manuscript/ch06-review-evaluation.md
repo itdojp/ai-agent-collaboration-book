@@ -1295,10 +1295,8 @@ Q3にリリースすれば市場機会を逃しません。
 
 本章のレビューと評価は、個別出力の目視確認と、仕組みとしての評価を分けて扱う。評価ケース、回帰評価、評価結果の管理については、以下の外部資料を参照軸にしている。
 
-```text
-出典キー: SRC-OPENAI-EVALS, SRC-OPENAI-AGENTS
-詳細URLと確認日は source-notes.md を参照。
-```
+- 出典キー: [SRC-OPENAI-EVALS](../source-notes.md#src-openai-evals), [SRC-OPENAI-AGENTS](../source-notes.md#src-openai-agents)
+- 詳細URLと確認日は [Source Notes](../source-notes.md) を参照。
 
 本章では、特定のAI評価サービス、Evals実装、LLMベンチマーク、モデル別性能比較には踏み込まない。実導入時には、自社が利用するAIツール、モデル、API、ログ基盤、評価基盤、セキュリティ規程、法務・個人情報保護方針の公式情報を確認する。
 

@@ -1136,10 +1136,8 @@ PR作成、CI、レビュー、AgentOpsを含む開発実験は『AIエージェ
 
 本章は、次の観点を参考にしている。
 
-```text
-出典キー: SRC-LENNY-INNER-GAME
-詳細URLと確認日は source-notes.md を参照。
-```
+- 出典キー: [SRC-LENNY-INNER-GAME](../../source-notes/#src-lenny-inner-game)
+- 詳細URLと確認日は [Source Notes](../../source-notes/) を参照。
 
 - AI時代には、既存業務の効率化だけでなく、試行回数を増やし、未知の仮説を検証する能力が重要になる
 - Lenny's Newsletter の “The New Inner Game” では、AI時代に重要になる人間側能力として、discernment、conflict、willingness to fail、positive self-talk が提示されている。本章では、そのうち willingness to fail を、社内実務で使う AI実験設計シート、Failure Review Sheet、Learning Log、Pace / Spin Reviewへ落としている

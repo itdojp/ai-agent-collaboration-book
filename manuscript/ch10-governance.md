@@ -108,7 +108,7 @@ AIガバナンスは、セキュリティと同じではない。また、日々
 
 ## 外部フレームワークをどう使うか
 
-AIガバナンスでは、ISO/IEC 42001、NIST AI RMF、EU AI Act、各国の個人情報保護法、業界規制、社内規程などが関係する場合がある。主要な外部参照の出典キーは `SRC-ISO-42001`、`SRC-NIST-AI-RMF`、`SRC-NIST-GENAI-PROFILE`、`SRC-EU-AI-LITERACY`、`SRC-OWASP-LLM`、`SRC-OWASP-AGENTIC` であり、詳細URLと確認日は [Source Notes](../source-notes.md) を参照する。
+AIガバナンスでは、ISO/IEC 42001、NIST AI RMF、EU AI Act、各国の個人情報保護法、業界規制、社内規程などが関係する場合がある。主要な外部参照の出典キーは [SRC-ISO-42001](../source-notes.md#src-iso-42001)、[SRC-NIST-AI-RMF](../source-notes.md#src-nist-ai-rmf)、[SRC-NIST-GENAI-PROFILE](../source-notes.md#src-nist-genai-profile)、[SRC-EU-AI-LITERACY](../source-notes.md#src-eu-ai-literacy)、[SRC-OWASP-LLM](../source-notes.md#src-owasp-llm)、[SRC-OWASP-AGENTIC](../source-notes.md#src-owasp-agentic) であり、詳細URLと確認日は [Source Notes](../source-notes.md) を参照する。
 
 ただし、本書は法令・認証の解説書ではない。ここでは、外部フレームワークを次のように扱う。
 
@@ -1675,10 +1675,8 @@ AIセキュリティ、権限、インシデント対応はセキュリティ関
 
 本章では、AIガバナンスを社内運用へ落とすための参照軸として、次を想定している。
 
-```text
-出典キー: SRC-ISO-42001, SRC-ISO-AIMS, SRC-NIST-AI-RMF, SRC-NIST-GENAI-PROFILE, SRC-EU-AI-LITERACY, SRC-OWASP-LLM, SRC-OWASP-AGENTIC
-詳細URLと確認日は source-notes.md を参照。
-```
+- 出典キー: [SRC-ISO-42001](../source-notes.md#src-iso-42001), [SRC-ISO-AIMS](../source-notes.md#src-iso-aims), [SRC-NIST-AI-RMF](../source-notes.md#src-nist-ai-rmf), [SRC-NIST-GENAI-PROFILE](../source-notes.md#src-nist-genai-profile), [SRC-EU-AI-LITERACY](../source-notes.md#src-eu-ai-literacy), [SRC-OWASP-LLM](../source-notes.md#src-owasp-llm), [SRC-OWASP-AGENTIC](../source-notes.md#src-owasp-agentic)
+- 詳細URLと確認日は [Source Notes](../source-notes.md) を参照。
 
 - ISO/IEC 42001: AIマネジメントシステムを確立、実装、維持、継続改善するための標準
 - NIST AI Risk Management Framework: AIリスク管理を Govern / Map / Measure / Manage の機能で整理する枠組み
