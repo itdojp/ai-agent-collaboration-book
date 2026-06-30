@@ -1,0 +1,271 @@
+{
+  "title": "AIエージェント協働の仕事術",
+  "subtitle": "人間・業務・AIをつなぐ実践フレームワーク",
+  "description": "AIエージェントを業務成果につなげるための依頼、コンテキスト、委任、検証、権限、判断、組織展開の実践フレームワーク。GitHub初期投入用パッケージ。",
+  "author": "ITDO Inc.",
+  "version": "0.24.0-import-ready",
+  "language": "ja",
+  "license": "CC BY-NC-SA 4.0",
+  "repository": {
+    "url": "https://github.com/itdojp/ai-agent-collaboration-book",
+    "branch": "main"
+  },
+  "publicUrl": "https://itdojp.github.io/ai-agent-collaboration-book/",
+  "ux": {
+    "profile": "B",
+    "modules": {
+      "quickStart": true,
+      "readingGuide": true,
+      "checklistPack": true,
+      "troubleshootingFlow": true,
+      "conceptMap": true,
+      "figureIndex": true,
+      "legalNotice": true,
+      "glossary": true,
+      "artifactIndex": true,
+      "codexTaskQueue": true,
+      "workshopPack": true,
+      "assessmentBank": true,
+      "governanceStarterPack": true
+    }
+  },
+  "structure": {
+    "chapters": [
+      {
+        "id": "reading-guide",
+        "title": "第0章 本書の読み方",
+        "description": "読者別導線、成果物の使い方、章間接続、本書活用計画の作成",
+        "objectives": [
+          "自分の役割に応じた読み方を選べる",
+          "6層モデルと成果物の流れを説明できる",
+          "本書活用計画 / Reading Route Planを作成できる",
+          "最初に読む章と最初に作る成果物を選べる"
+        ]
+      },
+      {
+        "id": "ch01-ai-agent-collaboration",
+        "title": "第1章 AIエージェント協働とは何か",
+        "description": "チャットAIから協働システムへの転換",
+        "objectives": [
+          "AIエージェントとチャットAIの違いを説明できる",
+          "人間・業務・AIの責任境界を説明できる"
+        ]
+      },
+      {
+        "id": "ch02-work-selection",
+        "title": "第2章 AIに任せる仕事、任せない仕事",
+        "description": "タスク適性、リスク、ROIの切り分け",
+        "objectives": [
+          "AI適用候補を分類できる",
+          "丸投げしてはいけない業務を識別できる"
+        ]
+      },
+      {
+        "id": "ch03-request-contract",
+        "title": "第3章 依頼を契約にする",
+        "description": "Prompt Contract / Request Contract の設計",
+        "objectives": [
+          "曖昧な依頼を再利用可能な依頼仕様に変換できる"
+        ]
+      },
+      {
+        "id": "ch04-context-design",
+        "title": "第4章 Context Packを設計する",
+        "description": "前提情報、暗黙知、情報鮮度、メモリの扱い",
+        "objectives": [
+          "AIに渡す情報と渡さない情報を区別できる",
+          "Context Packを作成できる"
+        ]
+      },
+      {
+        "id": "ch05-task-delegation",
+        "title": "第5章 タスク分解と委任",
+        "description": "サブタスク、確認点、停止条件、エスカレーション",
+        "objectives": [
+          "複雑な業務を委任可能な単位に分解できる",
+          "チェックポイント、停止条件、エスカレーション条件を設計できる",
+          "長い作業のためのRestart Packetを作成できる"
+        ]
+      },
+      {
+        "id": "ch06-review-evaluation",
+        "title": "第6章 AI出力レビューと評価",
+        "description": "AI出力を成果物として採用できるか、レビューと評価で判定する",
+        "objectives": [
+          "AI出力の誤りとリスクをレビューできる",
+          "Review Issue Logで問題を記録できる",
+          "Evaluation Planで仕組みとしての品質を評価できる"
+        ]
+      },
+      {
+        "id": "ch07-tool-permission-hitl",
+        "title": "第7章 ツール・権限・HITL",
+        "description": "AIが行動する範囲を、ツール権限、操作スコープ、人間承認、禁止操作、Permission Testで制御する",
+        "objectives": [
+          "ツール単位ではなく操作単位で権限を設計できる",
+          "read-only、draft-only、proposal-only、approval-requiredを使い分けられる",
+          "HITL承認フローと承認パケットを設計できる",
+          "Permission Testで禁止操作と承認ゲートを確認できる"
+        ]
+      },
+      {
+        "id": "ch08-logs-observability",
+        "title": "第8章 ログ・トレース・継続改善",
+        "description": "AIエージェントの実行履歴、トレース、承認、評価、失敗をRun単位で記録し、継続改善へ接続する",
+        "objectives": [
+          "Agent Run Logで依頼、前提、出力、レビュー、承認、実行結果を紐づけられる",
+          "Trace Event Record、Tool Execution Log、Approval Logを設計できる",
+          "ログに残す情報と残さない情報を分けられる",
+          "失敗分類からImprovement Backlogと評価ケースへ接続できる"
+        ]
+      },
+      {
+        "id": "ch09-security-privacy",
+        "title": "第9章 セキュリティとプライバシー",
+        "description": "プロンプトインジェクション、情報漏洩、権限過大、RAG、メモリ、ログ、外部ツール、プライバシー影響を設計で制御する",
+        "objectives": [
+          "AIエージェント固有の主要リスクを説明できる",
+          "情報分類とデータ最小化に基づき、AIに渡す情報を判断できる",
+          "外部文書を命令ではなくデータとして扱うルールを設計できる",
+          "Prompt Injection Test、AI Security Checklist、Privacy Impact Reviewを作成できる"
+        ]
+      },
+      {
+        "id": "ch10-governance",
+        "title": "第10章 ガバナンスと統制",
+        "description": "AI利用ポリシー、台帳、リスク分類、承認、監査、教育、インシデント対応、廃止を組織運用として設計する",
+        "objectives": [
+          "AI利用をユースケース単位で台帳化できる",
+          "G0〜G5などの統制レベルでリスク分類できる",
+          "Use Case Approval、Tool Action Approval、Risk Acceptanceを分けて承認フローを設計できる",
+          "AIインシデント、例外、変更、棚卸し、廃止を運用プロセスに組み込める"
+        ]
+      },
+      {
+        "id": "ch11-discernment",
+        "title": "第11章 AI時代の判断力",
+        "description": "AIが提示する情報、選択肢、推奨を材料にしながら、人間が採用、修正、棄却、保留、実験化、停止、やめる判断、リスク受容を行う",
+        "objectives": [
+          "AI提案と人間判断を分けられる",
+          "判断対象、判断者、判断基準、判断期限をDecision Briefに整理できる",
+          "Decision Criteria MatrixとOption Evaluation Tableで選択肢を比較できる",
+          "Kill Decision Sheetでやめる判断、縮小判断、停止条件を記録できる",
+          "Risk Acceptance MemoとDecision Review Logで残リスクと判断後学習を管理できる"
+        ]
+      },
+      {
+        "id": "ch12-conflict-connection-debt",
+        "title": "第12章 困難な会話と対立処理",
+        "description": "AIを論点整理、相手視点、会話準備、合意記録に使いながら、人間が直接扱うべき対立とConnection Debtを処理する",
+        "objectives": [
+          "Connection Debtを診断し、放置コスト、対立の種類、直接話すべき論点を整理できる",
+          "AIに準備させることと、人間が直接話すことを分けられる",
+          "Difficult Conversation Brief、Perspective Map、Conversation Planを作成できる",
+          "Agreement LogとFollow-up Contractで会話後の合意を業務成果物へ接続できる",
+          "高リスクな対立を人事、法務、セキュリティ、コンプライアンスへエスカレーションできる"
+        ]
+      },
+      {
+        "id": "ch13-experiment-culture",
+        "title": "第13章 失敗耐性と実験文化",
+        "description": "AIで試行回数を増やし、成功条件、失敗条件、停止条件、やめる条件、学習ログを設計する",
+        "objectives": [
+          "AI活用実験を効率化、改善、実験、展開に分けられる",
+          "AI実験設計シートで仮説、最小実験、成功条件、失敗条件、停止条件、やめる条件を定義できる",
+          "Failure Review SheetとLearning Logで失敗を学習と改善へ接続できる",
+          "Pace / Spin Reviewで実験速度と空回りを診断できる"
+        ]
+      },
+      {
+        "id": "ch14-self-talk",
+        "title": "第14章 セルフトークと高レバレッジ環境",
+        "description": "自己批判、完璧主義、評価不安、AI不安による行動停止を、最小行動、レビュー依頼、学習ログへ変換する",
+        "objectives": [
+          "セルフトークを業務上の行動ブロッカーとして扱える",
+          "健全なレビュー、品質基準、リスク管理と、過剰な自己批判を区別できる",
+          "Action Blocker診断で実リスク、想像上のリスク、安全策、最小行動を整理できる",
+          "Minimum Action Contractで24時間以内または次の業務日までの最小行動を定義できる",
+          "管理職として、行動停止を人格問題ではなく、成果物、レビュー観点、権限、リスク、期限の問題として扱える"
+        ]
+      },
+      {
+        "id": "ch15-skill-map",
+        "title": "第15章 スキルマップと評価",
+        "description": "能力定義、評価証拠、不足領域の引き渡し、認定判定",
+        "objectives": [
+          "AIエージェント協働能力を12領域とLv1〜Lv6で定義できる",
+          "Role Skill ProfileとPractical Assessment Packを設計できる",
+          "Evidence PortfolioとLearning Gap Handoffで評価結果を展開側へ引き渡せる",
+          "Certification CriteriaとCertification Decision Recordで認定判定を記録できる"
+        ]
+      },
+      {
+        "id": "ch16-org-rollout",
+        "title": "第16章 組織展開と教材化",
+        "description": "第15章の評価結果を、教材、学習パス、Office Hour、KPI、90日展開計画へ接続する",
+        "objectives": [
+          "Role Skill ProfileとLearning Gap Handoffを入力にしてRole-based Learning Pathを設計できる",
+          "AI Enablement Operating ModelとOffice Hour運用を設計できる",
+          "認定判定を権限付与、台帳反映、再評価へ接続できる",
+          "90-Day Rollout PlanとKPI Dashboardで組織展開を運用できる"
+        ]
+      }
+    ],
+    "appendices": [
+      {
+        "id": "appendix-a",
+        "title": "付録A: 成果物テンプレート集"
+      },
+      {
+        "id": "appendix-b",
+        "title": "付録B: チェックリスト集"
+      },
+      {
+        "id": "appendix-c",
+        "title": "付録C: スキル評価ルーブリック"
+      },
+      {
+        "id": "appendix-d",
+        "title": "付録D: 職種別ユースケース集"
+      },
+      {
+        "id": "appendix-e",
+        "title": "付録E: 用語集"
+      },
+      {
+        "id": "appendix-f",
+        "title": "付録F: ワークショップ設計"
+      },
+      {
+        "id": "appendix-g",
+        "title": "付録G: 認定・診断問題バンク"
+      },
+      {
+        "id": "appendix-h",
+        "title": "付録H: ガバナンス・スターターパック"
+      }
+    ],
+    "supplemental": [
+      {
+        "id": "quickstart",
+        "title": "Quick Start: 90分で本書の型を使う"
+      },
+      {
+        "id": "concept-map",
+        "title": "Concept Map: AIエージェント協働の全体像"
+      },
+      {
+        "id": "artifact-index",
+        "title": "Artifact Index: 本書で作る成果物"
+      },
+      {
+        "id": "troubleshooting",
+        "title": "Troubleshooting Flow"
+      },
+      {
+        "id": "figure-index",
+        "title": "Figure Index"
+      }
+    ]
+  }
+}

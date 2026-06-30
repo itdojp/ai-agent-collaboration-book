@@ -1,0 +1,28 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Local build artifacts
+_site/
+_dist/
+dist/
+build/
+.cache/
+.tmp/
+tmp/
+
+# Logs
+*.log
+
+# Secrets / env
+.env
+.env.*
+!.env.example
+
+# Generated archives
+*.zip
+*.tar.gz

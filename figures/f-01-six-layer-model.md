@@ -1,0 +1,15 @@
+# F-01: 6層モデル
+
+```mermaid
+flowchart TB
+    W[Work<br/>どの仕事にAIを使うか]
+    R[Request<br/>AIに何を依頼するか]
+    C[Context<br/>AIに何を渡すか]
+    D[Delegation<br/>どう分解し、どこで止めるか]
+    CTRL[Control<br/>どう検証し、どう制御するか]
+    H[Human / Org<br/>人間が何を判断し、どう学習するか]
+
+    W --> R --> C --> D --> CTRL --> H
+```
+
+6層モデルは、章構成と成果物体系を整理するための背骨である。

@@ -1,0 +1,22 @@
+# F-06: 90日展開ロードマップ
+
+```mermaid
+gantt
+    title AIエージェント協働 90日展開ロードマップ
+    dateFormat  YYYY-MM-DD
+    axisFormat  %d日
+    section 設計
+    棚卸しとリスク分類           :a1, 2026-01-01, 14d
+    ポリシーと台帳初版            :a2, after a1, 10d
+    section 教材
+    MVP教材20点作成               :b1, 2026-01-15, 21d
+    管理職・実務担当演習           :b2, after b1, 14d
+    section パイロット
+    重点部門パイロット             :c1, 2026-02-10, 28d
+    Office Hour / 失敗レビュー      :c2, after c1, 14d
+    section 展開判断
+    KPIレビューと改善              :d1, 2026-03-20, 7d
+    拡大・縮小・停止判断            :d2, after d1, 7d
+```
+
+日付は例である。実務では90日を4フェーズに分け、設計、教材、パイロット、展開判断を行う。
