@@ -22,6 +22,18 @@ AIエージェントを、単なるチャットツールではなく、業務成
 - 組織展開: 第9章〜第16章でセキュリティ、ガバナンス、人間側能力、研修・評価へ広げます。
 - テンプレート利用: 付録A〜Hを必要な成果物から逆引きします。
 
+## 読者別入口
+
+最初に [Quick Start](quickstart.md) で90分の最小実践を確認し、その後は自分の役割に近い行から読み進めます。章番号は目安であり、実務では [Artifact Index](artifact-index.md) の成果物から逆引きしても構いません。
+
+| 読者 | まず読む | 次に作る成果物 |
+|---|---|---|
+| 実務担当者 | [Quick Start](quickstart.md) / [第2章](manuscript/ch02-work-selection.md)〜[第6章](manuscript/ch06-review-evaluation.md) | AI適用判断シート、Request Contract、AI出力レビュー表 |
+| マネージャー | [第6章](manuscript/ch06-review-evaluation.md) / [第11章](manuscript/ch11-discernment.md) / [第15章](manuscript/ch15-skill-map.md)〜[第16章](manuscript/ch16-org-rollout.md) | レビュー基準、Decision Brief、Role Skill Profile |
+| エンジニア・情シス | [第7章](manuscript/ch07-tool-permission-hitl.md)〜[第10章](manuscript/ch10-governance.md) | 権限マトリクス、Agent Run Log、AI Security Checklist |
+| AI推進担当 | [第10章](manuscript/ch10-governance.md) / [第15章](manuscript/ch15-skill-map.md)〜[第16章](manuscript/ch16-org-rollout.md) | AI System Inventory、KPI Dashboard、90-Day Plan |
+| 経営層 | [第0章](manuscript/00-reading-guide.md) / [第10章](manuscript/ch10-governance.md)〜[第11章](manuscript/ch11-discernment.md) / [第16章](manuscript/ch16-org-rollout.md) | Risk Register、Decision Brief、Rollout Charter |
+
 ## 学習成果
 
 本書を読むと、次のことができるようになります。
