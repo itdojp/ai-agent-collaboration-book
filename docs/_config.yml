@@ -1,0 +1,53 @@
+title: "AIエージェント協働の仕事術"
+subtitle: "人間・業務・AIをつなぐ実践フレームワーク"
+description: "AIエージェントを業務成果につなげるための依頼、コンテキスト、委任、検証、権限、判断、組織展開の実践フレームワーク"
+author: "株式会社アイティードゥ"
+version: "1.0.0"
+lang: "ja"
+
+url: "https://itdojp.github.io"
+baseurl: "/ai-agent-collaboration-book"
+repository: "itdojp/ai-agent-collaboration-book"
+repository_branch: "main"
+repository_path_prefix: "docs"
+show_github_links: true
+show_edit_link: true
+feedback_url: "https://github.com/itdojp/ai-agent-collaboration-book/issues"
+license_text: "Content licensed under CC BY-NC-SA 4.0 (commercial use requires a separate agreement)."
+
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+
+relative_links:
+  enabled: true
+  collections: false
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    line_numbers: false
+
+exclude:
+  - planning/
+  - review/
+  - release/
+  - audit/
+  - operations/
+  - quality/
+
+# Use the same custom book layout family as the other ITDO book sites.
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "book"

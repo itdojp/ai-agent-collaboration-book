@@ -1,3 +1,9 @@
+---
+title: "AIエージェント協働の仕事術"
+source_path: "index.md"
+order: 0
+book_section: "home"
+---
 # AIエージェント協働の仕事術
 
 ## 人間・業務・AIをつなぐ実践フレームワーク
@@ -17,7 +23,7 @@ AIエージェントを、単なるチャットツールではなく、業務成
 
 ## 所要時間と読み方
 
-- 最短導入: [Quick Start](quickstart.md) を使い、90分で1つの業務を試します。
+- 最短導入: [Quick Start](quickstart/) を使い、90分で1つの業務を試します。
 - 実務適用: 第1章〜第8章で依頼、委任、レビュー、ログまでを整えます。
 - 組織展開: 第9章〜第16章でセキュリティ、ガバナンス、人間側能力、研修・評価へ広げます。
 - テンプレート利用: 付録A〜Hを必要な成果物から逆引きします。
@@ -37,68 +43,68 @@ AIエージェントを、単なるチャットツールではなく、業務成
 
 ## まず使うページ
 
-- [Quick Start: 90分で本書の型を使う](quickstart.md)
-- [Concept Map: AIエージェント協働の全体像](concept-map.md)
-- [Artifact Index: 本書で作る成果物](artifact-index.md)
-- [Troubleshooting Flow: 詰まったときの切り分け](troubleshooting.md)
-- [Figure Index: 図表計画](figure-index.md)
+- [Quick Start: 90分で本書の型を使う](quickstart/)
+- [Concept Map: AIエージェント協働の全体像](concept-map/)
+- [Artifact Index: 本書で作る成果物](artifact-index/)
+- [Troubleshooting Flow: 詰まったときの切り分け](troubleshooting/)
+- [Figure Index: 図表計画](figure-index/)
 
 ## 目次
 
 ### 導入
 
-- [第0章 本書の読み方](manuscript/00-reading-guide.md)
+- [第0章 本書の読み方](reading-guide/)
 
 ### Part I: AIエージェント協働の基礎
 
-- [第1章 AIエージェント協働とは何か](manuscript/ch01-ai-agent-collaboration.md)
-- [第2章 AIに任せる仕事、任せない仕事](manuscript/ch02-work-selection.md)
+- [第1章 AIエージェント協働とは何か](chapters/chapter-01/)
+- [第2章 AIに任せる仕事、任せない仕事](chapters/chapter-02/)
 
 ### Part II: 依頼・コンテキスト・委任
 
-- [第3章 依頼を契約にする](manuscript/ch03-request-contract.md)
-- [第4章 Context Packを設計する](manuscript/ch04-context-design.md)
-- [第5章 タスク分解と委任](manuscript/ch05-task-delegation.md)
+- [第3章 依頼を契約にする](chapters/chapter-03/)
+- [第4章 Context Packを設計する](chapters/chapter-04/)
+- [第5章 タスク分解と委任](chapters/chapter-05/)
 
 ### Part III: 検証・ツール・運用
 
-- [第6章 AI出力レビューと評価](manuscript/ch06-review-evaluation.md)
-- [第7章 ツール・権限・HITL](manuscript/ch07-tool-permission-hitl.md)
-- [第8章 ログ・トレース・継続改善](manuscript/ch08-logs-observability.md)
+- [第6章 AI出力レビューと評価](chapters/chapter-06/)
+- [第7章 ツール・権限・HITL](chapters/chapter-07/)
+- [第8章 ログ・トレース・継続改善](chapters/chapter-08/)
 
 ### Part IV: セキュリティ・ガバナンス
 
-- [第9章 セキュリティとプライバシー](manuscript/ch09-security-privacy.md)
-- [第10章 ガバナンスと統制](manuscript/ch10-governance.md)
+- [第9章 セキュリティとプライバシー](chapters/chapter-09/)
+- [第10章 ガバナンスと統制](chapters/chapter-10/)
 
 ### Part V: 人間側能力
 
-- [第11章 AI時代の判断力](manuscript/ch11-discernment.md)
-- [第12章 困難な会話と対立処理](manuscript/ch12-conflict-connection-debt.md)
-- [第13章 失敗耐性と実験文化](manuscript/ch13-experiment-culture.md)
-- [第14章 セルフトークと高レバレッジ環境](manuscript/ch14-self-talk.md)
+- [第11章 AI時代の判断力](chapters/chapter-11/)
+- [第12章 困難な会話と対立処理](chapters/chapter-12/)
+- [第13章 失敗耐性と実験文化](chapters/chapter-13/)
+- [第14章 セルフトークと高レバレッジ環境](chapters/chapter-14/)
 
 ### Part VI: 組織展開
 
-- [第15章 スキルマップと評価](manuscript/ch15-skill-map.md)
-- [第16章 組織展開と教材化](manuscript/ch16-org-rollout.md)
+- [第15章 スキルマップと評価](chapters/chapter-15/)
+- [第16章 組織展開と教材化](chapters/chapter-16/)
 
 ### 付録
 
-- [付録A: 成果物テンプレート集](appendices/a-templates.md)
-- [付録B: チェックリスト集](appendices/b-checklists.md)
-- [付録C: スキル評価ルーブリック](appendices/c-rubric.md)
-- [付録D: 職種別ユースケース集](appendices/d-use-cases.md)
-- [付録E: 用語集](appendices/e-glossary.md)
-- [付録F: ワークショップ設計](appendices/f-workshop-design.md)
-- [付録G: 認定・診断問題バンク](appendices/g-assessment-bank.md)
-- [付録H: ガバナンス・スターターパック](appendices/h-governance-starter-pack.md)
+- [付録A: 成果物テンプレート集](appendices/appendix-a/)
+- [付録B: チェックリスト集](appendices/appendix-b/)
+- [付録C: スキル評価ルーブリック](appendices/appendix-c/)
+- [付録D: 職種別ユースケース集](appendices/appendix-d/)
+- [付録E: 用語集](appendices/appendix-e/)
+- [付録F: ワークショップ設計](appendices/appendix-f/)
+- [付録G: 認定・診断問題バンク](appendices/appendix-g/)
+- [付録H: ガバナンス・スターターパック](appendices/appendix-h/)
 
 ### 実践・演習
 
-- [Recurring Case: 法人向けバックアップサービスのAI活用](examples/recurring-case.md)
-- [Exercise Bank: 演習問題集](exercises/exercise-bank.md)
-- [Source Notes: 出典候補と確認メモ](source-notes.md)
+- [Recurring Case: 法人向けバックアップサービスのAI活用](examples/recurring-case/)
+- [Exercise Bank: 演習問題集](exercises/exercise-bank/)
+- [Source Notes: 出典候補と確認メモ](source-notes/)
 
 ## 更新方針
 

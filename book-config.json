@@ -1,9 +1,9 @@
 {
   "title": "AIエージェント協働の仕事術",
   "subtitle": "人間・業務・AIをつなぐ実践フレームワーク",
-  "description": "AIエージェントを業務成果につなげるための依頼、コンテキスト、委任、検証、権限、判断、組織展開の実践フレームワーク。GitHub初期投入用パッケージ。",
-  "author": "ITDO Inc.",
-  "version": "0.24.0-import-ready",
+  "description": "AIエージェントを業務成果につなげるための依頼、コンテキスト、委任、検証、権限、判断、組織展開の実践フレームワーク",
+  "author": "ITDO Inc.（株式会社アイティードゥ）",
+  "version": "1.0.0",
   "language": "ja",
   "license": "CC BY-NC-SA 4.0",
   "repository": {
@@ -23,7 +23,7 @@
       "legalNotice": true,
       "glossary": true,
       "artifactIndex": true,
-      "codexTaskQueue": true,
+      "codexTaskQueue": false,
       "workshopPack": true,
       "assessmentBank": true,
       "governanceStarterPack": true
@@ -266,6 +266,17 @@
         "id": "figure-index",
         "title": "Figure Index"
       }
+    ]
+  },
+  "build": {
+    "framework": "jekyll",
+    "sourceDirectory": "docs",
+    "outputDirectory": "_site",
+    "config": "docs/_config.yml",
+    "qualityCommands": [
+      "npm test",
+      "npm audit --audit-level=moderate",
+      "bundle exec jekyll build --source docs --config docs/_config.yml --destination _site"
     ]
   }
 }

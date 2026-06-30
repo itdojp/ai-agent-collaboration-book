@@ -6,6 +6,11 @@ Thumbs.db
 .vscode/
 .idea/
 
+# Dependencies
+node_modules/
+.bundle/
+vendor/bundle/
+
 # Local build artifacts
 _site/
 _dist/
@@ -14,6 +19,13 @@ build/
 .cache/
 .tmp/
 tmp/
+.jekyll-cache/
+.jekyll-metadata
+docs/.jekyll-cache/
+docs/_site/
+
+# Local agent state
+.codex-local/
 
 # Logs
 *.log

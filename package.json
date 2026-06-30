@@ -1,0 +1,36 @@
+{
+  "name": "ai-agent-collaboration-book",
+  "version": "1.0.0",
+  "description": "AIエージェントを業務成果につなげるための依頼、コンテキスト、委任、検証、権限、判断、組織展開の実践フレームワーク",
+  "author": "ITDO Inc.（株式会社アイティードゥ）",
+  "license": "CC-BY-NC-SA-4.0",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "dev": "bundle exec jekyll serve --livereload --source docs --config docs/_config.yml --destination _site",
+    "start": "npm run dev",
+    "sync:docs": "python scripts/sync_published_docs.py",
+    "check:docs-sync": "python scripts/sync_published_docs.py --check",
+    "check-links": "python scripts/check_links.py",
+    "check:metadata": "python scripts/check_metadata.py",
+    "build": "bundle exec jekyll build --source docs --config docs/_config.yml --destination _site",
+    "test": "npm run check:docs-sync && npm run check-links && npm run check:metadata"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itdojp/ai-agent-collaboration-book.git"
+  },
+  "bugs": {
+    "url": "https://github.com/itdojp/ai-agent-collaboration-book/issues"
+  },
+  "homepage": "https://itdojp.github.io/ai-agent-collaboration-book/",
+  "keywords": [
+    "book",
+    "documentation",
+    "japanese",
+    "ai-agent",
+    "collaboration",
+    "governance"
+  ]
+}
