@@ -6,7 +6,7 @@
 - 使うテンプレート: Role-based Learning Path、Curriculum Blueprint、Office Hour Runbook、AI Enablement KPI Dashboard、90-Day Rollout Plan。ワークショップ設計は [付録F](../appendices/f-workshop-design.md)、ガバナンス初期設定は [付録H](../appendices/h-governance-starter-pack.md) を使う。
 - 読まなくてよい節: 能力レベル、合格基準、評価証拠を新しく作り直さない。それらは [第15章](ch15-skill-map.md) と [付録C: スキル評価ルーブリック](../appendices/c-rubric.md) へ戻す。
 - 管理職が確認すべき判断: 展開対象、運用責任者、Office Hourの受け皿、高リスク業務の承認条件、KPIの確認頻度が決まっているか。
-- 次章または付録へ渡すもの: 本章は最終章なので、決定事項を[付録A](../appendices/a-templates.md)のテンプレート、[付録B](../appendices/b-checklists.md)のチェックリスト、付録Fのワークショップ設計、付録Hのガバナンス初期設定へ落とす。
+- 次章または付録へ渡すもの: 本章は最終章なので、決定事項を[付録A](../appendices/a-templates.md)のテンプレート、[付録B](../appendices/b-checklists.md)のチェックリスト、[付録F](../appendices/f-workshop-design.md)のワークショップ設計、[付録H](../appendices/h-governance-starter-pack.md)のガバナンス初期設定へ落とす。
 
 ## この章で扱う能力
 
