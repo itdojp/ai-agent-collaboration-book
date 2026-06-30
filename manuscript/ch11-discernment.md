@@ -1221,10 +1221,8 @@ Issue、PR、DoD、ADR、Runbookなどの成果物を使った判断運用は『
 
 本章は、次の観点を参考にしている。
 
-```text
-出典キー: SRC-LENNY-INNER-GAME
-詳細URLと確認日は source-notes.md を参照。
-```
+- 出典キー: [SRC-LENNY-INNER-GAME](../source-notes.md#src-lenny-inner-game)
+- 詳細URLと確認日は [Source Notes](../source-notes.md) を参照。
 
 - AI時代には、実行、分析、下書き、比較が高速化するため、人間側の判断、やめる判断、リスク受容、説明責任の重要性が増す
 - AIが選択肢や文章を作れるほど、判断回避、対立回避、失敗回避が見えにくくなる

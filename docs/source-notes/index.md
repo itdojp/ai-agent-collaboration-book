@@ -30,52 +30,52 @@ Limited: 一部有料・一部非公開など、公開範囲に制約がある
 
 | Source ID | 名称 | URL | 状態 | 本書での用途 |
 |---|---|---|---|---|
-| SRC-ITDO-KA | ITエンジニア知識アーキテクチャ | <https://itdojp.github.io/it-engineer-knowledge-architecture/> | Verified | シリーズ内での位置づけ、既存書籍接続 |
-| SRC-ITDO-PUBLISHING | 出版ガイド | <https://itdojp.github.io/it-engineer-knowledge-architecture/publishing/> | Verified | 書籍構成、公開レビュー、シリーズ標準 |
-| SRC-ITDO-QUICKSTART | 新規書籍クイックスタート | <https://itdojp.github.io/it-engineer-knowledge-architecture/publishing/new-book-quickstart.html> | Verified | 新刊立ち上げ手順 |
-| SRC-ITDO-UX-PROFILES | UX Profiles v1 | <https://itdojp.github.io/it-engineer-knowledge-architecture/publishing/ux-profiles.html> | Verified | `ux.profile` と必須モジュール設計 |
-| SRC-ITDO-UX-CORE | UX Core Specification v1 | <https://itdojp.github.io/it-engineer-knowledge-architecture/publishing/ux-core.html> | Verified | 共通UI・章構成・トップページ構成 |
-| SRC-ITDO-UX-MODULES | UX Modules Catalog v1 | <https://itdojp.github.io/it-engineer-knowledge-architecture/publishing/ux-modules.html> | Verified | quickStart、readingGuide、figureIndex等のモジュール管理 |
-| SRC-ITDO-AGENT-BOOK | AIエージェント実践: Prompt / Context / Harness Engineering | <https://itdojp.github.io/ai-agent-engineering-book/> | Verified | 技術実践書への接続 |
-| SRC-ITDO-AI-COMM | AIエージェント・コミュニケーション実践ガイド | <https://itdojp.github.io/ai-communication-book/> | Verified | 既存生成AIコミュニケーション系書籍との責務分離 |
-| SRC-ITDO-AI-MIND | AI時代のプロフェッショナルITエンジニアの思考法 | <https://itdojp.github.io/ai-era-engineers-mind-book/> | Verified | 技術リーダーの判断・責任境界への接続 |
+| <a id="src-itdo-ka"></a>SRC-ITDO-KA | ITエンジニア知識アーキテクチャ | <https://itdojp.github.io/it-engineer-knowledge-architecture/> | Verified | シリーズ内での位置づけ、既存書籍接続 |
+| <a id="src-itdo-publishing"></a>SRC-ITDO-PUBLISHING | 出版ガイド | <https://itdojp.github.io/it-engineer-knowledge-architecture/publishing/> | Verified | 書籍構成、公開レビュー、シリーズ標準 |
+| <a id="src-itdo-quickstart"></a>SRC-ITDO-QUICKSTART | 新規書籍クイックスタート | <https://itdojp.github.io/it-engineer-knowledge-architecture/publishing/new-book-quickstart.html> | Verified | 新刊立ち上げ手順 |
+| <a id="src-itdo-ux-profiles"></a>SRC-ITDO-UX-PROFILES | UX Profiles v1 | <https://itdojp.github.io/it-engineer-knowledge-architecture/publishing/ux-profiles.html> | Verified | `ux.profile` と必須モジュール設計 |
+| <a id="src-itdo-ux-core"></a>SRC-ITDO-UX-CORE | UX Core Specification v1 | <https://itdojp.github.io/it-engineer-knowledge-architecture/publishing/ux-core.html> | Verified | 共通UI・章構成・トップページ構成 |
+| <a id="src-itdo-ux-modules"></a>SRC-ITDO-UX-MODULES | UX Modules Catalog v1 | <https://itdojp.github.io/it-engineer-knowledge-architecture/publishing/ux-modules.html> | Verified | quickStart、readingGuide、figureIndex等のモジュール管理 |
+| <a id="src-itdo-agent-book"></a>SRC-ITDO-AGENT-BOOK | AIエージェント実践: Prompt / Context / Harness Engineering | <https://itdojp.github.io/ai-agent-engineering-book/> | Verified | 技術実践書への接続 |
+| <a id="src-itdo-ai-comm"></a>SRC-ITDO-AI-COMM | AIエージェント・コミュニケーション実践ガイド | <https://itdojp.github.io/ai-communication-book/> | Verified | 既存生成AIコミュニケーション系書籍との責務分離 |
+| <a id="src-itdo-ai-mind"></a>SRC-ITDO-AI-MIND | AI時代のプロフェッショナルITエンジニアの思考法 | <https://itdojp.github.io/ai-era-engineers-mind-book/> | Verified | 技術リーダーの判断・責任境界への接続 |
 
 ### AIエージェント設計・評価
 
 | Source ID | 名称 | URL | 状態 | 本書での用途 |
 |---|---|---|---|---|
-| SRC-OPENAI-AGENTS | OpenAI Agents Guide | <https://developers.openai.com/api/docs/guides/agents> | Verified | エージェント、ツール、状態、ガードレール、評価、観測性の参照軸 |
-| SRC-OPENAI-HITL | OpenAI Agents SDK Human-in-the-loop | <https://openai.github.io/openai-agents-python/human_in_the_loop/> | Verified | HITL、ツール承認、承認パケット設計の参照軸 |
-| SRC-OPENAI-TRACING | OpenAI Agents SDK Tracing | <https://openai.github.io/openai-agents-python/tracing/> | Verified | トレース、Run、ツール実行ログ、観測性の参照軸 |
-| SRC-OPENAI-EVALS | OpenAI Evals Guide | <https://developers.openai.com/api/docs/guides/evals> | Redirected | 評価ケース、回帰評価、評価設計の参照軸。旧 `platform.openai.com/docs/guides/evals` は開発者ドキュメントへ遷移する |
-| SRC-ANTHROPIC-CONTEXT | Anthropic: Effective context engineering for AI agents | <https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents> | Verified | Context Pack、長時間タスク、コンテキスト管理の参照軸 |
-| SRC-ANTHROPIC-TOOLS | Anthropic: Writing effective tools for AI agents | <https://www.anthropic.com/engineering/writing-tools-for-agents> | Verified | Tool Spec Card、ツール設計、ツール返却情報の参照軸 |
+| <a id="src-openai-agents"></a>SRC-OPENAI-AGENTS | OpenAI Agents Guide | <https://developers.openai.com/api/docs/guides/agents> | Verified | エージェント、ツール、状態、ガードレール、評価、観測性の参照軸 |
+| <a id="src-openai-hitl"></a>SRC-OPENAI-HITL | OpenAI Agents SDK Human-in-the-loop | <https://openai.github.io/openai-agents-python/human_in_the_loop/> | Verified | HITL、ツール承認、承認パケット設計の参照軸 |
+| <a id="src-openai-tracing"></a>SRC-OPENAI-TRACING | OpenAI Agents SDK Tracing | <https://openai.github.io/openai-agents-python/tracing/> | Verified | トレース、Run、ツール実行ログ、観測性の参照軸 |
+| <a id="src-openai-evals"></a>SRC-OPENAI-EVALS | OpenAI Evals Guide | <https://developers.openai.com/api/docs/guides/evals> | Redirected | 評価ケース、回帰評価、評価設計の参照軸。旧 `platform.openai.com/docs/guides/evals` は開発者ドキュメントへ遷移する |
+| <a id="src-anthropic-context"></a>SRC-ANTHROPIC-CONTEXT | Anthropic: Effective context engineering for AI agents | <https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents> | Verified | Context Pack、長時間タスク、コンテキスト管理の参照軸 |
+| <a id="src-anthropic-tools"></a>SRC-ANTHROPIC-TOOLS | Anthropic: Writing effective tools for AI agents | <https://www.anthropic.com/engineering/writing-tools-for-agents> | Verified | Tool Spec Card、ツール設計、ツール返却情報の参照軸 |
 
 ### セキュリティ・ガバナンス
 
 | Source ID | 名称 | URL | 状態 | 本書での用途 |
 |---|---|---|---|---|
-| SRC-OWASP-LLM | OWASP Top 10 for LLM Applications 2025 | <https://genai.owasp.org/llm-top-10/> | Verified | LLMアプリケーションの主要リスク分類 |
-| SRC-OWASP-LLM-LEGACY | OWASP Top 10 for Large Language Model Applications project page | <https://owasp.org/www-project-top-10-for-large-language-model-applications/> | Verified | OWASP GenAI Security Projectの入口。本文では正規参照を `SRC-OWASP-LLM` に寄せる |
-| SRC-OWASP-AGENTIC | OWASP Top 10 for Agentic Applications 2026 | <https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/> | Verified | エージェント型AI固有のリスク分類 |
-| SRC-NIST-AI-RMF | NIST AI Risk Management Framework | <https://www.nist.gov/itl/ai-risk-management-framework> | Verified | Govern / Map / Measure / Manage を含むAIリスク管理の参照軸 |
-| SRC-NIST-GENAI-PROFILE | NIST AI 600-1: Generative AI Profile | <https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence> | Verified | 生成AI固有リスクをAI RMFへ重ねる参照軸 |
-| SRC-ISO-42001 | ISO/IEC 42001:2023 | <https://www.iso.org/standard/42001> | Verified | AIマネジメントシステムの標準への参照 |
-| SRC-ISO-AIMS | ISO overview: AI management systems | <https://www.iso.org/artificial-intelligence/ai-management-systems> | Verified | ISO/IEC 42001の説明補助 |
-| SRC-EU-AI-LITERACY | EU AI Act AI Literacy Q&A | <https://digital-strategy.ec.europa.eu/en/faqs/ai-literacy-questions-answers> | Verified | AIリテラシー、教育設計、ロール別学習の参照軸 |
+| <a id="src-owasp-llm"></a>SRC-OWASP-LLM | OWASP Top 10 for LLM Applications 2025 | <https://genai.owasp.org/llm-top-10/> | Verified | LLMアプリケーションの主要リスク分類 |
+| <a id="src-owasp-llm-legacy"></a>SRC-OWASP-LLM-LEGACY | OWASP Top 10 for Large Language Model Applications project page | <https://owasp.org/www-project-top-10-for-large-language-model-applications/> | Verified | OWASP GenAI Security Projectの入口。本文では正規参照を `SRC-OWASP-LLM` に寄せる |
+| <a id="src-owasp-agentic"></a>SRC-OWASP-AGENTIC | OWASP Top 10 for Agentic Applications 2026 | <https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/> | Verified | エージェント型AI固有のリスク分類 |
+| <a id="src-nist-ai-rmf"></a>SRC-NIST-AI-RMF | NIST AI Risk Management Framework | <https://www.nist.gov/itl/ai-risk-management-framework> | Verified | Govern / Map / Measure / Manage を含むAIリスク管理の参照軸 |
+| <a id="src-nist-genai-profile"></a>SRC-NIST-GENAI-PROFILE | NIST AI 600-1: Generative AI Profile | <https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence> | Verified | 生成AI固有リスクをAI RMFへ重ねる参照軸 |
+| <a id="src-iso-42001"></a>SRC-ISO-42001 | ISO/IEC 42001:2023 | <https://www.iso.org/standard/42001> | Verified | AIマネジメントシステムの標準への参照 |
+| <a id="src-iso-aims"></a>SRC-ISO-AIMS | ISO overview: AI management systems | <https://www.iso.org/artificial-intelligence/ai-management-systems> | Verified | ISO/IEC 42001の説明補助 |
+| <a id="src-eu-ai-literacy"></a>SRC-EU-AI-LITERACY | EU AI Act AI Literacy Q&A | <https://digital-strategy.ec.europa.eu/en/faqs/ai-literacy-questions-answers> | Verified | AIリテラシー、教育設計、ロール別学習の参照軸 |
 
 ### 人間側能力・チーム設計
 
 | Source ID | 名称 | URL | 状態 | 本書での用途 |
 |---|---|---|---|---|
-| SRC-LENNY-INNER-GAME | Lenny's Newsletter: The new inner game | <https://www.lennysnewsletter.com/p/the-new-inner-game-your-unfair-advantage> | Limited | discernment、conflict、willingness to fail、positive self-talk、NBA-ificationの参照軸。記事は有料部分を含むため、本書では公開範囲で確認できた内容と実践仮説を分けて扱う |
+| <a id="src-lenny-inner-game"></a>SRC-LENNY-INNER-GAME | Lenny's Newsletter: The new inner game | <https://www.lennysnewsletter.com/p/the-new-inner-game-your-unfair-advantage> | Limited | discernment、conflict、willingness to fail、positive self-talk、NBA-ificationの参照軸。記事は有料部分を含むため、本書では公開範囲で確認できた内容と実践仮説を分けて扱う |
 
 ### 本書公開情報
 
 | Source ID | 名称 | URL | 状態 | 用途 |
 |---|---|---|---|---|
-| SRC-BOOK-PUBLIC-URL | 本書公開URL | <https://itdojp.github.io/ai-agent-collaboration-book/> | Verified 2026-07-01 | 公開サイトの正本URL |
-| SRC-BOOK-REPOSITORY | 本書リポジトリURL | <https://github.com/itdojp/ai-agent-collaboration-book> | Verified 2026-07-01 | 公開済みリポジトリ、Issues、Pull Requests、更新履歴 |
+| <a id="src-book-public-url"></a>SRC-BOOK-PUBLIC-URL | 本書公開URL | <https://itdojp.github.io/ai-agent-collaboration-book/> | Verified 2026-07-01 | 公開サイトの正本URL |
+| <a id="src-book-repository"></a>SRC-BOOK-REPOSITORY | 本書リポジトリURL | <https://github.com/itdojp/ai-agent-collaboration-book> | Verified 2026-07-01 | 公開済みリポジトリ、Issues、Pull Requests、更新履歴 |
 
 ## 本文中の出典キー利用方針
 

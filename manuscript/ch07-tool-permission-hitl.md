@@ -1440,10 +1440,8 @@ AIに任せないこと：顧客への直接送信、契約・SLA・補償判断
 
 本章は、AIエージェントに外部ツールを使わせる際の権限、承認、HITL、ツール仕様を扱う。HITLとツール設計の参照軸は以下である。
 
-```text
-出典キー: SRC-OPENAI-HITL, SRC-ANTHROPIC-TOOLS, SRC-OPENAI-AGENTS
-詳細URLと確認日は source-notes.md を参照。
-```
+- 出典キー: [SRC-OPENAI-HITL](../source-notes.md#src-openai-hitl), [SRC-ANTHROPIC-TOOLS](../source-notes.md#src-anthropic-tools), [SRC-OPENAI-AGENTS](../source-notes.md#src-openai-agents)
+- 詳細URLと確認日は [Source Notes](../source-notes.md) を参照。
 
 本章では、特定のAIツール、SaaS、MCP実装、API仕様、クラウド権限モデルの詳細には踏み込まない。実導入時には、自社が利用するAIツール、エージェント実行基盤、SaaS、API、IAM、ログ基盤、DLP、監査要件、セキュリティ規程、個人情報保護方針の公式情報を確認する。
 

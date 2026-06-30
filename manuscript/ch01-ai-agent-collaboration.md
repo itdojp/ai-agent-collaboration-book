@@ -492,10 +492,8 @@ AIエージェント協働として扱う前に、次を確認する。
 
 本章のAIエージェント定義は、本書内の実務設計上の定義であり、特定ベンダーの製品分類ではない。AIエージェントを、ツール、状態、ガードレール、評価、観測性を含む業務システムとして扱う観点は、以下の外部資料を参照軸にしている。
 
-```text
-出典キー: SRC-OPENAI-AGENTS, SRC-ANTHROPIC-CONTEXT
-詳細URLと確認日は source-notes.md を参照。
-```
+- 出典キー: [SRC-OPENAI-AGENTS](../source-notes.md#src-openai-agents), [SRC-ANTHROPIC-CONTEXT](../source-notes.md#src-anthropic-context)
+- 詳細URLと確認日は [Source Notes](../source-notes.md) を参照。
 
 モデル名、料金、UI、API仕様、エージェント機能は変化しやすい。実装時には、利用するAI基盤の公式ドキュメントと社内規程を確認する。
 

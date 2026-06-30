@@ -1128,10 +1128,8 @@ Context Packには、旧版のSLA条件が含まれていた。
 
 本章は、AIエージェントのRun、トレース、ツール実行履歴、承認ログ、改善バックログを扱う。エージェント実行の観測性に関する参照軸は以下である。
 
-```text
-出典キー: SRC-OPENAI-TRACING, SRC-OPENAI-AGENTS
-詳細URLと確認日は source-notes.md を参照。
-```
+- 出典キー: [SRC-OPENAI-TRACING](../source-notes.md#src-openai-tracing), [SRC-OPENAI-AGENTS](../source-notes.md#src-openai-agents)
+- 詳細URLと確認日は [Source Notes](../source-notes.md) を参照。
 
 本章では、特定のAI実行基盤、トレーシング製品、ログ管理製品、SIEM、APM、クラウド監査ログ、SaaS監査ログの仕様には踏み込まない。実導入時には、自社が利用するAI基盤、ログ基盤、DLP、SIEM、監査要件、個人情報保護方針、セキュリティ規程、契約上の保存義務、顧客との合意事項を確認する。
 

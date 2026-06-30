@@ -1278,10 +1278,8 @@ AI利用が怖い人が多い
 
 本章は、AI時代の高レバレッジ環境における行動停止、完璧主義、自己批判、評価不安を、業務上の行動設計として扱う。人間側能力の参照軸は以下である。
 
-```text
-出典キー: SRC-LENNY-INNER-GAME
-詳細URLと確認日は source-notes.md を参照。
-```
+- 出典キー: [SRC-LENNY-INNER-GAME](../../source-notes/#src-lenny-inner-game)
+- 詳細URLと確認日は [Source Notes](../../source-notes/) を参照。
 
 Lenny's Newsletterの記事は一部有料であり、本書では公開範囲で確認できた内容と実践仮説を分けて扱う。本章は、医療、心理療法、カウンセリング、労務、人事評価、ハラスメント対応を代替するものではない。
 

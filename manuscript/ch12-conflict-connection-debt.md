@@ -1296,10 +1296,8 @@ Follow-up Contract
 
 本章は、次の観点を参考にしている。
 
-```text
-出典キー: SRC-LENNY-INNER-GAME
-詳細URLと確認日は source-notes.md を参照。
-```
+- 出典キー: [SRC-LENNY-INNER-GAME](../source-notes.md#src-lenny-inner-game)
+- 詳細URLと確認日は [Source Notes](../source-notes.md) を参照。
 
 - AI時代には、文章作成、論点整理、分析、選択肢生成が容易になる一方、人間同士で直接扱うべき対立や未合意は残る
 - Lenny's Newsletter の “The New Inner Game” では、AI時代に重要になる人間側能力として、discernment、conflict、willingness to fail、positive self-talk が提示されている。本章では、そのうち conflict を、社内実務で使う Connection Debt診断、Difficult Conversation Brief、Agreement Log へ落としている
