@@ -1,6 +1,6 @@
 # Changelog
 
-このページは公開読者向けに、主要な公開版変更だけをまとめる。0.x系ドラフト、章別制作ログ、レビュー反映の詳細履歴は [`review/CHANGELOG_DETAILED.md`](review/CHANGELOG_DETAILED.md) に保持する。
+このページは公開読者向けに、主要な公開版変更だけをまとめる。0.x系ドラフト、章別制作ログ、レビュー反映の詳細履歴は [制作・レビュー向けの詳細履歴](review/CHANGELOG_DETAILED.md) に保持する。
 
 ## Unreleased
 
@@ -19,5 +19,5 @@
 
 ## 公開前ドラフト履歴
 
-- 0.x系の章別ドラフト、横断レビュー、重複圧縮、Source Notes再構成、図表追加などの制作詳細は、公開サイトではなく [`review/CHANGELOG_DETAILED.md`](review/CHANGELOG_DETAILED.md) に集約する。
+- 0.x系の章別ドラフト、横断レビュー、重複圧縮、Source Notes再構成、図表追加などの制作詳細は、公開サイトではなく [制作・レビュー向けの詳細履歴](review/CHANGELOG_DETAILED.md) に集約する。
 - 読者は通常、上記の `Unreleased` と `1.0.0` の主要変更だけ確認すればよい。
