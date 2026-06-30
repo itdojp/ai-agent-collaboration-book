@@ -116,6 +116,7 @@
 ## Review
 
 - `review/ADDITIONAL_FIGURES_SUMMARY.md`
+- `review/CHANGELOG_DETAILED.md`
 - `review/CHAPTER_00_COMPRESSION_SUMMARY.md`
 - `review/CHAPTER_MATRIX_REVIEW.md`
 - `review/CODEX_REVIEW_TASKS.md`

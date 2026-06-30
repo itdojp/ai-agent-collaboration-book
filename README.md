@@ -51,7 +51,7 @@ AIエージェント協働とは、業務目的を明確化し、依頼・コン
 | `appendices/` | 付録A〜Hの編集元。 |
 | `figures/` | 図表説明ページの編集元。SVG生成物は `figures/assets/` に配置する。 |
 | `examples/`, `exercises/` | 継続ケースと演習問題の編集元。 |
-| `planning/`, `review/` | 執筆計画、レビュー記録、親サイト掲載メモなどのリポジトリ資料。書籍サイトの主要導線には含めない。 |
+| `planning/`, `review/` | 執筆計画、レビュー記録、親サイト掲載メモ、制作詳細履歴などのリポジトリ資料。書籍サイトの主要導線には含めない。詳細な制作履歴は `review/CHANGELOG_DETAILED.md` に保持する。 |
 | `scripts/` | 図表SVG生成、公開ツリー同期、リンク検証、メタデータ検証のスクリプト。 |
 
 `docs/` の Markdown は `scripts/sync_published_docs.py` で編集元から生成します。本文を変更した場合は、編集元ファイルを更新してから `npm run sync:docs` を実行してください。Mermaid図表のSVG生成手順は [FIGURE_BUILD.md](FIGURE_BUILD.md) を参照してください。
