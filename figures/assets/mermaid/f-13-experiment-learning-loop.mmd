@@ -1,0 +1,15 @@
+flowchart LR
+    H[仮説<br/>何を検証するか]
+    M[最小実験<br/>小さく安全に試す]
+    R[実行<br/>AIと人間でRun]
+    L[記録<br/>Run Log / Learning Log]
+    FR[失敗レビュー<br/>責任追及ではなく学習]
+    D{判断<br/>続ける? 変える? やめる?}
+    SCALE[拡大]
+    ITER[修正して再実験]
+    KILL[停止・廃棄]
+
+    H --> M --> R --> L --> FR --> D
+    D --> SCALE
+    D --> ITER --> H
+    D --> KILL

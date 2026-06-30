@@ -6,6 +6,11 @@ book_section: "figures"
 ---
 # F-10: AIガバナンス運用サイクル
 
+![F-10: AIガバナンス運用サイクル](../assets/f-10-ai-governance-cycle.svg)
+
+<details markdown="1">
+<summary>Mermaidソース</summary>
+
 ```mermaid
 flowchart LR
     INTAKE[Use Case Intake<br/>利用申請]
@@ -21,6 +26,8 @@ flowchart LR
     RETIRE -->|新規・変更| INTAKE
     REVIEW -->|改善要求| OPERATE
 ```
+
+</details>
 
 AIガバナンスは、AI利用を止めるためではなく、安全にスケールさせるための運用サイクルである。低リスク利用は速く通し、高リスク利用は台帳、承認、証跡、教育、廃止まで管理する。
 

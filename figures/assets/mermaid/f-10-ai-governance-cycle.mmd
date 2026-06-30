@@ -1,0 +1,13 @@
+flowchart LR
+    INTAKE[Use Case Intake<br/>利用申請]
+    INV[AI System Inventory<br/>台帳化]
+    CLASS[Risk Classification<br/>G0〜G5分類]
+    APPROVE[Approval Workflow<br/>承認・例外・ADR]
+    OPERATE[Operate<br/>運用・教育・権限付与]
+    MONITOR[Monitor / Audit<br/>KPI・証跡・監査]
+    REVIEW[Quarterly Review<br/>改善・棚卸し]
+    RETIRE[Retire / Continue<br/>廃止・継続・拡大]
+
+    INTAKE --> INV --> CLASS --> APPROVE --> OPERATE --> MONITOR --> REVIEW --> RETIRE
+    RETIRE -->|新規・変更| INTAKE
+    REVIEW -->|改善要求| OPERATE

@@ -115,6 +115,11 @@ book_section: "additional"
 
 ## 成果物の依存関係
 
+![成果物の依存関係](../figures/assets/artifact-index-flow.svg)
+
+<details markdown="1">
+<summary>Mermaidソース（編集元）</summary>
+
 ```mermaid
 flowchart TB
     R0[本書活用計画] --> Z[AIエージェント協働ブループリント] --> A[AI適用判断シート] --> B[AIエージェント依頼書 / Request Contract]
@@ -229,6 +234,8 @@ flowchart TB
     QRR --> ER[Enablement Retrospective]
     ER --> I[Improvement Backlog]
 ```
+
+</details>
 
 ## 執筆上の注意
 

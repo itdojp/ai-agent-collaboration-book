@@ -6,6 +6,11 @@ book_section: "figures"
 ---
 # F-07: 権限レベル梯子
 
+![F-07: 権限レベル梯子](../assets/f-07-permission-ladder.svg)
+
+<details markdown="1">
+<summary>Mermaidソース</summary>
+
 ```mermaid
 flowchart TB
     P0[P0: no-access<br/>アクセス不可]
@@ -24,6 +29,8 @@ flowchart TB
     H -.-> P6
     H -.-> P7
 ```
+
+</details>
 
 権限は「ツール単位」ではなく「操作単位」で設計する。原則として、外部影響、データ更新、顧客影響、本番影響、不可逆操作がある場合は `P4: approval-required` 以上として扱う。
 

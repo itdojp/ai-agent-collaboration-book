@@ -1,5 +1,10 @@
 # F-12: Connection Debtの蓄積構造
 
+![F-12: Connection Debtの蓄積構造](assets/f-12-connection-debt-structure.svg)
+
+<details markdown="1">
+<summary>Mermaidソース</summary>
+
 ```mermaid
 flowchart LR
     U[言うべきことを言わない]
@@ -20,6 +25,8 @@ flowchart LR
     A -.-> I2
     R -.-> I3
 ```
+
+</details>
 
 Connection Debtは、重要な相手に言うべきことを言わないことで蓄積する組織負債である。AI導入が進むと、未合意の前提や責任境界がAI出力の品質問題に見えやすくなる。
 

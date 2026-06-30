@@ -10,12 +10,14 @@
   "scripts": {
     "dev": "bundle exec jekyll serve --livereload --source docs --config docs/_config.yml --destination _site",
     "start": "npm run dev",
+    "build:figures": "python scripts/build_figures.py",
+    "check:figures": "python scripts/build_figures.py --check",
     "sync:docs": "python scripts/sync_published_docs.py",
     "check:docs-sync": "python scripts/sync_published_docs.py --check",
     "check-links": "python scripts/check_links.py",
     "check:metadata": "python scripts/check_metadata.py",
     "build": "bundle exec jekyll build --source docs --config docs/_config.yml --destination _site",
-    "test": "npm run check:docs-sync && npm run check-links && npm run check:metadata"
+    "test": "npm run check:figures && npm run check:docs-sync && npm run check-links && npm run check:metadata"
   },
   "repository": {
     "type": "git",
