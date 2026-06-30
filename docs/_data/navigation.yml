@@ -81,19 +81,19 @@ resources:
     path: /changelog/
 
 appendices:
-  - title: 付録A 成果物テンプレート集
+  - title: "付録A: 成果物テンプレート集"
     path: /appendices/appendix-a/
-  - title: 付録B チェックリスト集
+  - title: "付録B: チェックリスト集"
     path: /appendices/appendix-b/
-  - title: 付録C スキル評価ルーブリック
+  - title: "付録C: スキル評価ルーブリック"
     path: /appendices/appendix-c/
-  - title: 付録D 職種別ユースケース集
+  - title: "付録D: 職種別ユースケース集"
     path: /appendices/appendix-d/
-  - title: 付録E 用語集
+  - title: "付録E: 用語集"
     path: /appendices/appendix-e/
-  - title: 付録F ワークショップ設計
+  - title: "付録F: ワークショップ設計"
     path: /appendices/appendix-f/
-  - title: 付録G 認定・診断問題バンク
+  - title: "付録G: 認定・診断問題バンク"
     path: /appendices/appendix-g/
-  - title: 付録H ガバナンス・スターターパック
+  - title: "付録H: ガバナンス・スターターパック"
     path: /appendices/appendix-h/
