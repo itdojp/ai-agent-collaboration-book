@@ -6,6 +6,12 @@ book_section: "resources"
 ---
 # Changelog
 
+## Unreleased
+
+- Artifact Indexの先頭に目的別入口・職種別入口を追加し、成果物一覧を長大表から章領域別の短いカード形式へ再構成。
+- Quick Startの3時間版を横長表から時間帯別ステップへ変更し、Web表示で読みやすくした。
+- Figure Indexに図表IDから用途・関連章を追う早見表を追加。
+
 ## 0.23.0-revised - 2026-06-27
 
 - Source NotesのURL確認結果を、Source ID、正規URL、状態、用途の表へ再構成。

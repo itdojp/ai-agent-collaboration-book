@@ -59,13 +59,13 @@
       "title": "Artifact Index: 本書で作る成果物",
       "url": "/ai-agent-collaboration-book/artifact-index/",
       "source_path": "docs/artifact-index/index.md",
-      "excerpt": "本書は概念理解だけを目的にしない。章ごとに、現場で使う成果物を作る。 本文で新しい概念を出したら、原則として次のどれかへ落とす。 テンプレート項目 チェックリスト項目 演習問題 ルーブリック評価基準 ガバナンス運用項目 落とし先がない概念は、読者の行動につながらない可能性が高い。"
+      "excerpt": "本書は概念理解だけを目的にしない。章ごとに、現場で使う成果物を作る。 このページでは、目的別・職種別の入口を示し、成果物を章領域別のカード形式で整理する。各成果物は「初出」「主な利用者」「用途」を分けて確認できる。 まず使う : AI適用判断シート、Request Contract、Context Pack、AI出力レビュー表、Improvement Backlogから始める。 レビューする : Acceptance Criteria、"
     },
     {
       "title": "Changelog",
       "url": "/ai-agent-collaboration-book/changelog/",
       "source_path": "docs/changelog/index.md",
-      "excerpt": "Source NotesのURL確認結果を、Source ID、正規URL、状態、用途の表へ再構成。 旧 platform.openai.com/docs/guides/evals 表記を、正規URL developers.openai.com/api/docs/guides/evals へ整理。 OWASP LLM Top 10は正規参照を genai.owasp.org/llm top 10/ に寄せ、旧OWASPプロジェクトページ"
+      "excerpt": "Artifact Indexの先頭に目的別入口・職種別入口を追加し、成果物一覧を長大表から章領域別の短いカード形式へ再構成。 Quick Startの3時間版を横長表から時間帯別ステップへ変更し、Web表示で読みやすくした。 Figure Indexに図表IDから用途・関連章を追う早見表を追加。 Source NotesのURL確認結果を、Source ID、正規URL、状態、用途の表へ再構成。 旧 platform.openai.co"
     },
     {
       "title": "第1章 AIエージェント協働とは何か",
@@ -197,7 +197,7 @@
       "title": "Figure Index: 図表計画",
       "url": "/ai-agent-collaboration-book/figure-index/",
       "source_path": "docs/figure-index/index.md",
-      "excerpt": "出版時には、章ごとに最低1つの図表を置く。図表は読者が記憶し、研修資料へ転用できるものに限定する。 各図表ページでは、公開サイトで最初にSVG画像を表示し、編集用のMermaidソースは折りたたみ表示にする。SVGは scripts/build figures.py で再生成する。 1図1メッセージにする。 図表だけを見ても、何をすればよいか分かるようにする。 UIや特定製品のスクリーンショットには依存しない。 変化しやすい製品仕様を図"
+      "excerpt": "出版時には、章ごとに最低1つの図表を置く。図表は読者が記憶し、研修資料へ転用できるものに限定する。 各図表ページでは、公開サイトで最初にSVG画像を表示し、編集用のMermaidソースは折りたたみ表示にする。SVGは scripts/build figures.py で再生成する。 図表IDだけを手がかりに、用途と関連章を確認できる早見表である。詳細なファイル名やSVGリンクは、後続の「優先図表」「追加図表」で確認する。 1図1メッセー"
     },
     {
       "title": "F-00: AIエージェント協働ループ",
