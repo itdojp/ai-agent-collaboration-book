@@ -1,6 +1,6 @@
 # MANIFEST
 
-0.24.0-import-ready のファイル一覧。
+1.0.0 公開版のファイル一覧。
 
 ## Root files
 

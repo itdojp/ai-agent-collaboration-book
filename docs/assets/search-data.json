@@ -65,7 +65,7 @@
       "title": "Changelog",
       "url": "/ai-agent-collaboration-book/changelog/",
       "source_path": "docs/changelog/index.md",
-      "excerpt": "Artifact Indexの先頭に目的別入口・職種別入口を追加し、成果物一覧を長大表から章領域別の短いカード形式へ再構成。 Quick Startの3時間版を横長表から時間帯別ステップへ変更し、Web表示で読みやすくした。 Figure Indexに図表IDから用途・関連章を追う早見表を追加。 Source NotesのURL確認結果を、Source ID、正規URL、状態、用途の表へ再構成。 旧 platform.openai.co"
+      "excerpt": "初回公開版として、GitHub Pages向けJekyll公開ツリー、共通bookレイアウト、検索データ、Book QA、Pagesデプロイを整備。 IT Engineer Knowledge Architecture親サイトへ掲載し、公開URLを正式導線として追加。 Mermaid図表をSVG化し、公開サイトで図表が安定表示されるようにした。 Source Notesを公開読者向けの参考文献・出典管理ページへ整理し、内部監査メモを分離"
     },
     {
       "title": "第1章 AIエージェント協働とは何か",
@@ -167,7 +167,7 @@
       "title": "奥付",
       "url": "/ai-agent-collaboration-book/colophon/",
       "source_path": "docs/colophon/index.md",
-      "excerpt": "書名: AIエージェント協働の仕事術 副題: 人間・業務・AIをつなぐ実践フレームワーク 著者: ITDO Inc. 版: 0.24.0 import ready 初版ドラフト作成日: 2026 06 25 公開URL: https://itdojp.github.io/ai agent collaboration book/ リポジトリURL: https://github.com/itdojp/ai agent collaborat"
+      "excerpt": "書名: AIエージェント協働の仕事術 副題: 人間・業務・AIをつなぐ実践フレームワーク 著者: ITDO Inc. 版: 1.0.0 初版ドラフト作成日: 2026 06 25 初版公開日: 2026 07 01 公開URL: https://itdojp.github.io/ai agent collaboration book/ リポジトリURL: https://github.com/itdojp/ai agent collab"
     },
     {
       "title": "Concept Map: AIエージェント協働の全体像",

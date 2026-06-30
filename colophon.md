@@ -6,9 +6,11 @@
 
 著者: ITDO Inc.
 
-版: 0.24.0-import-ready
+版: 1.0.0
 
 初版ドラフト作成日: 2026-06-25
+
+初版公開日: 2026-07-01
 
 公開URL: https://itdojp.github.io/ai-agent-collaboration-book/
 

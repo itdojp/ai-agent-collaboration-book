@@ -2,7 +2,7 @@
 
 ## 人間・業務・AIをつなぐ実践フレームワーク
 
-- 版: 0.24.0-import-ready
+- 版: 1.0.0
 - 著者: ITDO Inc.
 - 公開URL: https://itdojp.github.io/ai-agent-collaboration-book/
 - リポジトリURL: https://github.com/itdojp/ai-agent-collaboration-book
