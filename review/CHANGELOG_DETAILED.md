@@ -1,6 +1,7 @@
 # Detailed Changelog
 
 このファイルは制作・レビュー向けの詳細履歴である。公開読者向けの主要変更は [`changelog.md`](../changelog.md) を参照する。
+`## Unreleased` は公開読者向けChangelogと同じ主要項目を置き、0.x系ドラフト、章別制作ログ、レビュー反映の詳細は後続の版別履歴に保持する。
 
 
 ## Unreleased
@@ -17,6 +18,18 @@
 - Mermaid図表をSVG化し、公開サイトで図表が安定表示されるようにした。
 - Source Notesを公開読者向けの参考文献・出典管理ページへ整理し、内部監査メモを分離。
 - トップページ、付録ナビゲーション、Artifact Index、Quick Start、Figure Indexの初動導線とWeb表示を改善。
+
+## 0.24.0-import-ready
+
+GitHub初回投入用に調整。
+
+- `GITHUB_INITIAL_PUSH.md` を追加
+- `docs/PARENT_SITE_INTEGRATION.md` を追加
+- `.gitignore` を追加
+- READMEの次作業をGitHub初回push向けに更新
+- `source-notes.md` の本書リポジトリURLを確認済み扱いに更新
+- `book-config.json`、`title.md`、`colophon.md` の版表記を更新
+
 
 ## 0.23.0-revised - 2026-06-27
 
@@ -249,15 +262,3 @@
 
 - 初期スターターを作成。
 - 16章構成、付録A〜E、Codex CLI作業計画を作成。
-
-## 0.24.0-import-ready
-
-GitHub初回投入用に調整。
-
-- `GITHUB_INITIAL_PUSH.md` を追加
-- `docs/PARENT_SITE_INTEGRATION.md` を追加
-- `.gitignore` を追加
-- READMEの次作業をGitHub初回push向けに更新
-- `source-notes.md` の本書リポジトリURLを確認済み扱いに更新
-- `book-config.json`、`title.md`、`colophon.md` の版表記を更新
-
