@@ -40,7 +40,7 @@ AIエージェント協働とは、業務目的を明確化し、依頼・コン
 | [artifact-index.md](artifact-index.md) | [Artifact Index](https://itdojp.github.io/ai-agent-collaboration-book/artifact-index/) | 本書で作る成果物一覧 |
 | [troubleshooting.md](troubleshooting.md) | [Troubleshooting](https://itdojp.github.io/ai-agent-collaboration-book/troubleshooting/) | AI活用が詰まったときの切り分け |
 | [figure-index.md](figure-index.md) | [Figure Index](https://itdojp.github.io/ai-agent-collaboration-book/figure-index/) | 図表索引 |
-| [source-notes.md](source-notes.md) | [Source Notes](https://itdojp.github.io/ai-agent-collaboration-book/source-notes/) | 出典候補と確認メモ |
+| [source-notes.md](source-notes.md) | [References and Source Notes](https://itdojp.github.io/ai-agent-collaboration-book/source-notes/) | 参考文献・出典管理 |
 
 ## ディレクトリ構成
 

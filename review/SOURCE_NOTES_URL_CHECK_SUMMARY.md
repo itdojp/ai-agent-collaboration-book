@@ -12,7 +12,7 @@
 ```text
 Verified: 2026-06-27時点でページ確認済み
 Redirected: 旧URLから正規URLへ整理
-Planned: 本書公開予定URL・予定リポジトリなど公開前
+Planned: 本書公開予定URL・予定リポジトリなど公開前（2026-07-01時点では本書URL・リポジトリをVerifiedへ更新済み）
 Limited: 有料記事等により公開範囲に制約あり
 ```
 
@@ -69,9 +69,9 @@ SRC-EU-AI-LITERACY
 SRC-LENNY-INNER-GAME
 ```
 
-## Planned扱い
+## 本書公開URL・リポジトリの公開後更新
 
-以下は本書公開後に確認する。
+Issue #3対応時点（2026-07-01）で以下を公開済みとして確認し、`source-notes.md` では `Verified 2026-07-01` へ更新した。
 
 ```text
 SRC-BOOK-PUBLIC-URL
@@ -82,4 +82,4 @@ SRC-BOOK-REPOSITORY
 
 - Source Notesは、本文の出典管理を軽量化するための管理ファイルである。法令・規格・ベンダー仕様の全文解説ではない。
 - Lenny's Newsletterの記事は一部有料のため、本文では公開範囲で確認できた内容と、社内実務へ変換した実践仮説を分ける。
-- ISO、NIST、OWASP、EU AI Act、OpenAI、Anthropicの仕様・公開情報は将来変更され得る。公開前レビュー時に再確認する。
+- ISO、NIST、OWASP、EU AI Act、OpenAI、Anthropicの仕様・公開情報は将来変更され得る。公開後も定期レビュー時に再確認する。
