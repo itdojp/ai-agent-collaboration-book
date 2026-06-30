@@ -6,6 +6,14 @@ book_section: "chapters"
 ---
 # 第15章 スキルマップと評価
 
+## この章を5分で使う場合
+
+- まず作るもの: 対象ロールを1つ選び、Role Skill Profileで必要能力、目標レベル、評価証拠を仮置きする。
+- 使うテンプレート: Skill Map、Role Skill Profile、Skill Diagnosis Form、Evidence Portfolio、Learning Gap Handoff。評価基準の詳細は [付録C: スキル評価ルーブリック](../../appendices/appendix-c/) を参照する。
+- 読まなくてよい節: 今日の目的が能力定義と評価判定だけなら、教材体系、Office Hour、KPI、90日展開計画の設計は [第16章](../chapter-16/) に渡す。
+- 管理職が確認すべき判断: この評価を人事査定ではなく能力開発とリスク管理として扱えているか。高リスク業務に必要な到達レベル、評価証拠、再評価条件が明確か。
+- 次章または付録へ渡すもの: Learning Gap HandoffとCertification Decision Recordを第16章へ渡す。詳細ルーブリックは付録C、診断・認定問題は [付録G](../../appendices/appendix-g/) を使う。
+
 ## この章で扱う能力
 
 この章では、AIエージェント協働に必要な能力を、個人の感覚や自己申告ではなく、観察可能な行動、成果物、実技課題、運用証跡で評価できる形にする。

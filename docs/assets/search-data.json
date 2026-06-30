@@ -65,7 +65,7 @@
       "title": "Changelog",
       "url": "/ai-agent-collaboration-book/changelog/",
       "source_path": "docs/changelog/index.md",
-      "excerpt": "図表ページへ関連章、本文での利用箇所、図表索引へ戻る導線を追加。 図表ページの下部ナビゲーションを通常章の前後移動ではなく、図表索引・目次へ戻る導線へ変更。 初回公開版として、GitHub Pages向けJekyll公開ツリー、共通bookレイアウト、検索データ、Book QA、Pagesデプロイを整備。 IT Engineer Knowledge Architecture親サイトへ掲載し、公開URLを正式導線として追加。 Mermai"
+      "excerpt": "第15章・第16章の冒頭に、管理職・AI推進担当が短時間で使える「この章を5分で使う場合」導線を追加。 図表ページへ関連章、本文での利用箇所、図表索引へ戻る導線を追加。 図表ページの下部ナビゲーションを通常章の前後移動ではなく、図表索引・目次へ戻る導線へ変更。 初回公開版として、GitHub Pages向けJekyll公開ツリー、共通bookレイアウト、検索データ、Book QA、Pagesデプロイを整備。 IT Engineer Kn"
     },
     {
       "title": "第1章 AIエージェント協働とは何か",
@@ -155,13 +155,13 @@
       "title": "第15章 スキルマップと評価",
       "url": "/ai-agent-collaboration-book/chapters/chapter-15/",
       "source_path": "docs/chapters/chapter-15/index.md",
-      "excerpt": "この章では、AIエージェント協働に必要な能力を、個人の感覚や自己申告ではなく、観察可能な行動、成果物、実技課題、運用証跡で評価できる形にする。 第1章から第14章までは、AIエージェント協働を成立させるための設計要素を扱った。 どの仕事にAIを使うか。 AIに何を依頼するか。 どの前提情報を渡すか。 どの粒度で委任するか。 出力をどうレビューするか。 ツール権限と人間承認をどう設計するか。 ログと評価でどう改善するか。 セキュリティ、プ"
+      "excerpt": "まず作るもの: 対象ロールを1つ選び、Role Skill Profileで必要能力、目標レベル、評価証拠を仮置きする。 使うテンプレート: Skill Map、Role Skill Profile、Skill Diagnosis Form、Evidence Portfolio、Learning Gap Handoff。評価基準の詳細は 付録C: スキル評価ルーブリック を参照する。 読まなくてよい節: 今日の目的が能力定義と評価判定だ"
     },
     {
       "title": "第16章 組織展開と教材化",
       "url": "/ai-agent-collaboration-book/chapters/chapter-16/",
       "source_path": "docs/chapters/chapter-16/index.md",
-      "excerpt": "この章では、本書の内容を、読書で終わらせず、社内の教育、標準成果物、評価、認定、権限付与、KPI、継続改善へ展開する方法を扱う。 第1章から第15章までは、AIエージェント協働を成立させるための設計要素を扱った。 第1章: AIエージェント協働の全体像。 第2章: AIに任せる仕事、任せない仕事。 第3章: Request Contract。 第4章: Context Pack。 第5章: タスク分解と委任。 第6章: AI出力レビュー"
+      "excerpt": "まず作るもの: 1部門または1ロールに限定したRollout Charterと90 Day Rollout Planを作り、誰に何を学ばせるかを1枚で決める。 使うテンプレート: Role based Learning Path、Curriculum Blueprint、Office Hour Runbook、AI Enablement KPI Dashboard、90 Day Rollout Plan。ワークショップ設計は 付録F、ガ"
     },
     {
       "title": "奥付",

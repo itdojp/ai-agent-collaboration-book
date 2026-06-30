@@ -6,6 +6,14 @@ book_section: "chapters"
 ---
 # 第16章 組織展開と教材化
 
+## この章を5分で使う場合
+
+- まず作るもの: 1部門または1ロールに限定したRollout Charterと90-Day Rollout Planを作り、誰に何を学ばせるかを1枚で決める。
+- 使うテンプレート: Role-based Learning Path、Curriculum Blueprint、Office Hour Runbook、AI Enablement KPI Dashboard、90-Day Rollout Plan。ワークショップ設計は [付録F](../../appendices/appendix-f/)、ガバナンス初期設定は [付録H](../../appendices/appendix-h/) を使う。
+- 読まなくてよい節: 能力レベル、合格基準、評価証拠を新しく作り直さない。それらは [第15章](../chapter-15/) と [付録C: スキル評価ルーブリック](../../appendices/appendix-c/) へ戻す。
+- 管理職が確認すべき判断: 展開対象、運用責任者、Office Hourの受け皿、高リスク業務の承認条件、KPIの確認頻度が決まっているか。
+- 次章または付録へ渡すもの: 本章は最終章なので、決定事項を[付録A](../../appendices/appendix-a/)のテンプレート、[付録B](../../appendices/appendix-b/)のチェックリスト、付録Fのワークショップ設計、付録Hのガバナンス初期設定へ落とす。
+
 ## この章で扱う能力
 
 この章では、本書の内容を、読書で終わらせず、社内の教育、標準成果物、評価、認定、権限付与、KPI、継続改善へ展開する方法を扱う。
