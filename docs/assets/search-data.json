@@ -59,7 +59,7 @@
       "title": "Artifact Index: 本書で作る成果物",
       "url": "/ai-agent-collaboration-book/artifact-index/",
       "source_path": "docs/artifact-index/index.md",
-      "excerpt": "本書は概念理解だけを目的にしない。章ごとに、現場で使う成果物を作る。 このページでは、最初に目的別・職種別の入口を示し、その後に成果物を章領域別の短いカード一覧として整理する。横長の大表を読む必要がないよう、各成果物は「初出」「主な利用者」「用途」を分けて確認できる形にする。 まず使う : AI適用判断シート、Request Contract、Context Pack、AI出力レビュー表、Improvement Backlogから始める"
+      "excerpt": "本書は概念理解だけを目的にしない。章ごとに、現場で使う成果物を作る。 このページでは、目的別・職種別の入口を示し、成果物を章領域別のカード形式で整理する。各成果物は「初出」「主な利用者」「用途」を分けて確認できる。 まず使う : AI適用判断シート、Request Contract、Context Pack、AI出力レビュー表、Improvement Backlogから始める。 レビューする : Acceptance Criteria、"
     },
     {
       "title": "Changelog",
