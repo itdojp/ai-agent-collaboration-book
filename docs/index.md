@@ -104,7 +104,7 @@ AIエージェントを、単なるチャットツールではなく、業務成
 
 - [Recurring Case: 法人向けバックアップサービスのAI活用](examples/recurring-case/)
 - [Exercise Bank: 演習問題集](exercises/exercise-bank/)
-- [Source Notes: 出典候補と確認メモ](source-notes/)
+- [References and Source Notes: 参考文献・出典管理](source-notes/)
 
 ## 更新方針
 

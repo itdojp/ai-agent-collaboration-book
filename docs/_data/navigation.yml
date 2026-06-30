@@ -67,7 +67,7 @@ additional:
     path: /exercises/exercise-bank/
 
 resources:
-  - title: Source Notes
+  - title: References and Source Notes
     path: /source-notes/
   - title: まえがき
     path: /preface/
