@@ -7,7 +7,7 @@
 - 公開サイト: <https://itdojp.github.io/ai-agent-collaboration-book/>
 - リポジトリ: <https://github.com/itdojp/ai-agent-collaboration-book>
 - ライセンス: CC BY-NC-SA 4.0（商用利用には別途契約が必要）
-- 公開版: 1.0.0
+- 公開版: [v1.0.0](https://github.com/itdojp/ai-agent-collaboration-book/releases/tag/v1.0.0)
 
 本書は、AIエージェントを「便利なチャット」ではなく、業務成果を出すための協働システムとして扱います。対象読者はエンジニアに限定しません。業務担当者、マネージャー、AI推進担当、情シス・セキュリティ担当、経営層までを含みます。
 

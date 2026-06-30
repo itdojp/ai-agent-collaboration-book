@@ -6,11 +6,13 @@ book_section: "resources"
 ---
 # Changelog
 
-## Unreleased
+## 1.0.0 - 2026-07-01
 
-- Artifact Indexの先頭に目的別入口・職種別入口を追加し、成果物一覧を長大表から章領域別の短いカード形式へ再構成。
-- Quick Startの3時間版を横長表から時間帯別ステップへ変更し、Web表示で読みやすくした。
-- Figure Indexに図表IDから用途・関連章を追う早見表を追加。
+- 初回公開版として、GitHub Pages向けJekyll公開ツリー、共通bookレイアウト、検索データ、Book QA、Pagesデプロイを整備。
+- IT Engineer Knowledge Architecture親サイトへ掲載し、公開URLを正式導線として追加。
+- Mermaid図表をSVG化し、公開サイトで図表が安定表示されるようにした。
+- Source Notesを公開読者向けの参考文献・出典管理ページへ整理し、内部監査メモを分離。
+- トップページ、付録ナビゲーション、Artifact Index、Quick Start、Figure Indexの初動導線とWeb表示を改善。
 
 ## 0.23.0-revised - 2026-06-27
 
