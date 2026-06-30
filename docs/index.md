@@ -28,6 +28,18 @@ AIエージェントを、単なるチャットツールではなく、業務成
 - 組織展開: 第9章〜第16章でセキュリティ、ガバナンス、人間側能力、研修・評価へ広げます。
 - テンプレート利用: 付録A〜Hを必要な成果物から逆引きします。
 
+## 読者別入口
+
+最初に [Quick Start](quickstart/) で90分の最小実践を確認し、その後は自分の役割に近い行から読み進めます。章番号は目安であり、実務では [Artifact Index](artifact-index/) の成果物から逆引きしても構いません。
+
+| 読者 | まず読む | 次に作る成果物 |
+|---|---|---|
+| 実務担当者 | [Quick Start](quickstart/) / [第2章](chapters/chapter-02/)〜[第6章](chapters/chapter-06/) | AI適用判断シート、Request Contract、AI出力レビュー表 |
+| マネージャー | [第6章](chapters/chapter-06/) / [第11章](chapters/chapter-11/) / [第15章](chapters/chapter-15/)〜[第16章](chapters/chapter-16/) | レビュー基準、Decision Brief、Role Skill Profile |
+| エンジニア・情シス | [第7章](chapters/chapter-07/)〜[第10章](chapters/chapter-10/) | 権限マトリクス、Agent Run Log、AI Security Checklist |
+| AI推進担当 | [第10章](chapters/chapter-10/) / [第15章](chapters/chapter-15/)〜[第16章](chapters/chapter-16/) | AI System Inventory、KPI Dashboard、90-Day Plan |
+| 経営層 | [第0章](reading-guide/) / [第10章](chapters/chapter-10/)〜[第11章](chapters/chapter-11/) / [第16章](chapters/chapter-16/) | Risk Register、Decision Brief、Rollout Charter |
+
 ## 学習成果
 
 本書を読むと、次のことができるようになります。
